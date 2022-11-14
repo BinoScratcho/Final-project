@@ -154,7 +154,7 @@ table {
                     
                     #home a {
                         font-family: 'Cantarell', sans-serif;
-                        padding: 2em;
+                        padding: 4em;
                         text-decoration: none;
                         color: black;
                         font-weight: bold;
@@ -204,6 +204,10 @@ table {
                         font-family: cursive;
                     }
                     /*tableau inscription */
+                    
+                    #formulaire {
+                        display: flex;
+                    }
                     
                     #inscription {
                         display: flex;
@@ -299,18 +303,18 @@ table {
                         }
                         /* login */
                         #utilisateur {
-                            width: 50vw;
+                            width: 53vw;
                         }
                         #mdp {
                             margin-left: 7vw;
-                            width: 51vw;
+                            width: 53vw;
                             margin-top: 3vh;
                         }
                         #co {
                             width: 85vw;
                             font-weight: bold;
                             font-family: cursive;
-                            margin-top: 3vh;
+                            margin-top: 6vh;
                         }
                         #deco {
                             width: 21vh;
