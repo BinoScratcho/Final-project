@@ -5,10 +5,11 @@
 <fieldset>
     
     <form action="./log_exec.php" method="POST">
-        <label for="username">Nom d'Utilisateur</label>
-        <input type="text" name="username" id="usname">
-        <label for="user_pass">Mot de Passe</label>
-        <input type="password"
-            name="user_pass"><button type="submit" name="submit">Connection</button></form>
-</fieldset><?php include "./include/footer.php";
+        <label id="usname" for="username"> Nom d'utilisateur </label>
+        <input id="utilisateur" type="text" name="username"><br>
+        <label for="user_pass">Mot de passe</label>
+        <input type="password" name="user_pass" id="mdp">
+        <button type="submit" name="submit" id="co">Connection</button></form>
+</fieldset>
+<?php include "./include/footer.php";
 ?>

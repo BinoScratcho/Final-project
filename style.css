@@ -132,14 +132,14 @@ table {
                     /*couleur de fond */
                     
                     body {
-                        background-color: rgb(81, 158, 4);
+                        background-color: rgb(56, 110, 3);
                     }
                     /* entete */
                     
                     #logo {
                         text-align: center;
                         display: revert-layer;
-                        margin-bottom: 10vh;
+                        margin-bottom: 12vh;
                     }
                     
                     #logo img {
@@ -169,7 +169,7 @@ table {
                     
                     #home2 {
                         text-align: right;
-                        margin-top: -56vh;
+                        margin-top: -39vh;
                         max-width: 97%;
                     }
                     /* Body */
@@ -286,6 +286,9 @@ table {
                             margin-top: -44vh;
                             text-align: right;
                         }
+                        #home a {
+                            padding: 5vh;
+                        }
                         .champs {
                             background-image: none;
                             height: 100vh;
@@ -294,6 +297,28 @@ table {
                             background-image: none;
                             margin-top: 30vh;
                         }
+                        /* login */
+                        #utilisateur {
+                            width: 50vw;
+                        }
+                        #mdp {
+                            margin-left: 7vw;
+                            width: 51vw;
+                            margin-top: 3vh;
+                        }
+                        #co {
+                            width: 85vw;
+                            font-weight: bold;
+                            font-family: cursive;
+                            margin-top: 3vh;
+                        }
+                        #deco {
+                            width: 21vh;
+                        }
+                        #espace {
+                            width: 22vh;
+                        }
+                        /*intro*/
                         #intro {
                             position: absolute;
                             left: 22%;
@@ -303,8 +328,11 @@ table {
                             font-family: cursive;
                             margin-top: -3vh;
                         }
+                        #avatar {
+                            margin-right: 6vh;
+                        }
                         .legumes {
-                            margin-top: -50vh;
+                            margin-top: -20vh;
                         }
                         .image_1 {
                             margin: auto;
