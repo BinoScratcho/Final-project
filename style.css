@@ -235,7 +235,8 @@ table {
                         padding: 2em;
                         width: 100%;
                         display: flex;
-                        justify-content: space-evenly;
+                        justify-content: space-between;
+                        margin-left: -2em;
                     }
                     
                     #ancre {
