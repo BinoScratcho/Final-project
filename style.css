@@ -205,6 +205,18 @@ table {
                     }
                     /*tableau inscription */
                     
+                    #formulaire {
+                        display: flex;
+                        font-family: cursive;
+                    }
+                    
+                    #co {
+                        font-family: cursive;
+                        margin-left: 2em;
+                        width: 10vw;
+                        font-weight: bold;
+                    }
+                    
                     #inscription {
                         display: flex;
                         flex-direction: column;
