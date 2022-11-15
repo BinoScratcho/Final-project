@@ -230,13 +230,6 @@ table {
                     }
                     /*espace gestion */
                     
-                    #ancre {
-                        color: black;
-                        padding: 0em;
-                        display: flex;
-                        margin-top: 2vh;
-                    }
-                    
                     #order {
                         height: 500px;
                         padding: 2em;
@@ -342,6 +335,13 @@ table {
                         }
                         #espace {
                             width: 22vh;
+                        }
+                        /*espace gestion */
+                        #ancre {
+                            color: black;
+                            padding: 0em;
+                            display: flex;
+                            margin-top: 2vh;
                         }
                         /*intro*/
                         #intro {
