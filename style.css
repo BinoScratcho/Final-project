@@ -203,19 +203,7 @@ table {
                         max-width: 62%;
                         font-family: cursive;
                     }
-                    /*tableau inscription login*/
-                    
-                    #formulaire {
-                        display: flex;
-                        font-family: cursive;
-                    }
-                    
-                    #co {
-                        font-family: cursive;
-                        margin-left: 2em;
-                        width: 10vw;
-                        font-weight: bold;
-                    }
+                    /*tableau inscription */
                     
                     #inscription {
                         display: flex;
@@ -324,22 +312,6 @@ table {
                             font-family: cursive;
                             margin-top: 6vh;
                         }
-                        #formulaire {
-                            display: block;
-                        }
-                        #utilisateur {
-                            width: 88vw;
-                        }
-                        #mdp {
-                            width: 88vw;
-                            margin-top: 3vh;
-                            margin-left: 0;
-                        }
-                        #co {
-                            width: 80vw;
-                            margin-top: 6vh;
-                            margin-left: 1em;
-                        }
                         #deco {
                             width: 21vh;
                         }
@@ -358,6 +330,23 @@ table {
                         }
                         #avatar {
                             margin-right: 6vh;
+                        }
+                        /* login */
+                        #formulaire {
+                            display: block;
+                        }
+                        #utilisateur {
+                            width: 88vw;
+                        }
+                        #mdp {
+                            width: 88vw;
+                            margin-top: 3vh;
+                            margin-left: 0;
+                        }
+                        #co {
+                            width: 80vw;
+                            margin-top: 6vh;
+                            margin-left: 1em;
                         }
                         /*body */
                         .legumes {
