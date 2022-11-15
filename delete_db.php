@@ -9,7 +9,7 @@ require "./database.php";
 
 $req = $pdo->prepare("DELETE FROM users WHERE id = ?");
 
-echo "<button onclick='confirmDeleteArticle()'>Suprimer</button>";
+echo "<button onclick='confirmUsers()'>Suprimer</button>";
   
 
 $req->execute(array($id));
