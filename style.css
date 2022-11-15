@@ -230,6 +230,10 @@ table {
                     }
                     /*espace gestion */
                     
+                    .ft2 {
+                        margin-top: 5vh;
+                    }
+                    
                     #order {
                         height: 40vh;
                         padding: 2em;
