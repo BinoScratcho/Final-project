@@ -15,8 +15,8 @@ include './include/header.php';
         echo'<button class="deco1"><a href="./index_membre.php">Espace Gestion</a></button>';
         
     } else  { 
-          echo'<button><a href="./register.php">S\'inscrire</a></button>';
-          echo'<button><a href="./login.php">Se connecter</a></button>';
+          echo'<button  class="deco1"><a href="./register.php">S\'inscrire</a></button>';
+          echo'<button  class="deco1"><a href="./login.php">Se connecter</a></button>';
         } 
 ?>
 
