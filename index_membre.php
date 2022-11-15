@@ -20,8 +20,8 @@ Que voulez-vous faire ? </p><br>
 
 <?php
 if($_SESSION['user_kind'] == 1){
-    echo '<a href="./gest_membre.php">Gérer les membres &emsp;</a>';
-    echo '<a href="./gest_art.php">Gérer les articles &emsp;</a>' ;
+    echo '<a id="ancre" href="./gest_membre.php">Gérer les membres &emsp;</a>';
+    echo '<a id="ancre" href="./gest_art.php">Gérer les articles &emsp;</a>' ;
 }
 
 else($_SESSION['user_kind'] == 2)[
@@ -33,8 +33,8 @@ else($_SESSION['user_kind'] == 2)[
 
 
 
-<a href="./deconnect.php">Déconnexion</a>
-<a href="./index.php">Retour à l'accueil</a>
+<a id="ancre" href="./deconnect.php">Déconnexion</a>
+<a id="ancre" href="./index.php">Retour à l'accueil</a>
 
 </div>
 
