@@ -6,7 +6,7 @@ if(empty($_SESSION['username'])){
 include "./include/header.php";
 ?>
  
-<div id="hello"><p>Bonjour <?php echo $_SESSION['nom'] . " ".  $_SESSION['prenom']  ?>, </div>
+<div id="hello"><p>Bonjour <?php echo $_SESSION['nom'] . " ".  $_SESSION['prenom']  ?>,
 <?php
 
      if($_SESSION['user_kind'] == 1){echo "vous êtes administrateur.";} 
@@ -16,7 +16,7 @@ include "./include/header.php";
      ?>
 
 Que voulez-vous faire ? </p><br>
-
+</div>
 <div id="order">
 <?php
 if($_SESSION['user_kind'] == 1){
@@ -33,7 +33,7 @@ else($_SESSION['user_kind'] == 2)[
 
 
 
-<a id="ancre" href="./deconnect.php">Déconnexion</a><br>
+<a id="ancre" href="./deconnect.php">Déconnexion</a>
 <a id="ancre" href="./index.php">Retour à l'accueil</a>
 
 </div>
