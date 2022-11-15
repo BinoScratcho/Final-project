@@ -355,6 +355,7 @@ table {
                         #order {
                             display: block;
                             padding: 1em;
+                            margin-top: 2vh;
                         }
                         /*intro*/
                         #intro {
