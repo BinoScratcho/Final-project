@@ -33,7 +33,7 @@ else($_SESSION['user_kind'] == 2)[
 
 
 
-<a id="ancre" href="./deconnect.php">Déconnexion</a>
+<a id="ancre" href="./deconnect.php">Déconnexion</a><br>
 <a id="ancre" href="./index.php">Retour à l'accueil</a>
 
 </div>
