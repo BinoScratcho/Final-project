@@ -352,6 +352,10 @@ table {
                             display: flex;
                             margin-top: 2vh;
                         }
+                        #order {
+                            display: block;
+                            padding: 1em;
+                        }
                         /*intro*/
                         #intro {
                             position: absolute;
