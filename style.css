@@ -132,14 +132,14 @@ table {
                     /*couleur de fond */
                     
                     body {
-                        background-color: rgb(56, 110, 3);
+                        background-color: rgb(81, 158, 4);
                     }
                     /* entete */
                     
                     #logo {
                         text-align: center;
                         display: revert-layer;
-                        margin-bottom: 12vh;
+                        margin-bottom: 10vh;
                     }
                     
                     #logo img {
