@@ -233,7 +233,7 @@ table {
                     #order {
                         height: 40vh;
                         padding: 2em;
-                        width: 100%;
+                        max-width: 100%;
                         display: flex;
                         justify-content: space-between;
                     }
