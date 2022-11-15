@@ -11,7 +11,7 @@ include './include/header.php';
     if(isset($_SESSION['username'])){
         echo'<img id="avatar" src="./images/avatar.png" alt="avatar">';
         echo'' .$_SESSION['username']. '';
-        echo'<button><a href="./deconnect.php">Deconnexion</a></button>';
+        echo'<button><a id="deco1" href="./deconnect.php">Deconnexion</a></button>';
         echo'<button><a href="./index_membre.php">Espace Gestion</a></button>';
         
     } else  { 

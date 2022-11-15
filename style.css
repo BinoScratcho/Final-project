@@ -357,6 +357,9 @@ table {
                             padding: 1em;
                             margin-top: 2vh;
                         }
+                        #deco1 {
+                            width: 51vw;
+                        }
                         /*intro*/
                         #intro {
                             position: absolute;
