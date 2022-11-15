@@ -6,14 +6,10 @@ if(empty($_SESSION['username'])){
 include "./include/header.php";
 ?>
  
-<style>
-
-#order{
-    height: 500px;
-}    
 
 
-</style>
+
+
 <div id="order"><p>Bonjour <?php echo $_SESSION['nom'] . " ".  $_SESSION['prenom']  ?>,
 <?php
 
