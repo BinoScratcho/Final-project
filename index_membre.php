@@ -6,18 +6,18 @@ if(empty($_SESSION['username'])){
 include "./include/header.php";
 ?>
  
-<div id="order"><p>Bonjour <?php echo $_SESSION['nom'] . " ".  $_SESSION['prenom']  ?>,
+<div id="hello"><p>Bonjour <?php echo $_SESSION['nom'] . " ".  $_SESSION['prenom']  ?>, </div>
 <?php
 
      if($_SESSION['user_kind'] == 1){echo "vous êtes administrateur.";} 
 
-
+     
 
      ?>
 
 Que voulez-vous faire ? </p><br>
 
-
+<div id="order">
 <?php
 if($_SESSION['user_kind'] == 1){
     echo '<a id="ancre" href="./gest_membre.php">Gérer les membres &emsp;</a>';
