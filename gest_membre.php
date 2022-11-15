@@ -20,7 +20,7 @@ while($data =$req->fetch()){
     echo "<tr> <td>$data->id</td><td>$data->username</td><td>$data->nom</td><td>$data->prenom</td>";
     echo "<td>";
     echo "<a href='./update_membre.php?id=$data->id'>Modifier </a>";
-    echo "<a href='./delete_db.php?id=$data->id'  >Supprimer</a>";
+    echo "<button onclick='confirmDeleteArticle(". $data->id .")'>Supprimer</button>";
     echo "</td></tr>";
 }
 ?>
