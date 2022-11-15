@@ -25,7 +25,6 @@ body {
 
 #home a {
     font-family: 'Cantarell', sans-serif;
-    padding: 4em;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -206,12 +205,9 @@ body {
         margin-top: -44vh;
         text-align: right;
     }
-    #home a {
-        padding: 5vh;
-    }
     .champs {
         background-image: none;
-        height: 100vh;
+        height: 70vh;
     }
     .champs2 {
         background-image: none;
@@ -250,7 +246,7 @@ body {
         padding: 1em;
         margin-top: 2vh;
     }
-    #deco1 {
+    .deco1 {
         width: 52.5vw;
     }
     /*intro*/
