@@ -231,12 +231,11 @@ table {
                     /*espace gestion */
                     
                     #order {
-                        height: 350px;
+                        height: 40vh;
                         padding: 2em;
                         width: 100%;
                         display: flex;
                         justify-content: space-between;
-                        margin-left: -2em;
                     }
                     
                     #ancre {
