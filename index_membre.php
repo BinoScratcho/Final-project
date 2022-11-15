@@ -9,7 +9,7 @@ include "./include/header.php";
 <div id="order"><p>Bonjour <?php echo $_SESSION['nom'] . " ".  $_SESSION['prenom']  ?>,
 <?php
 
-     if($_SESSION['user_kind'] == 1){echo "vous êtes administrateur";} 
+     if($_SESSION['user_kind'] == 1){echo "vous êtes administrateur.";} 
 
 
 

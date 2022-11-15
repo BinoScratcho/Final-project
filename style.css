@@ -232,7 +232,9 @@ table {
                     
                     #ancre {
                         color: black;
-                        text-decoration: none;
+                        padding: 0em;
+                        display: flex;
+                        margin-top: 2vh;
                     }
                     
                     #order {
