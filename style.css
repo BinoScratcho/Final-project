@@ -205,7 +205,7 @@ body {
         height: 10em;
     }
     #home {
-        margin-top: -46vh;
+        margin-top: -47vh;
         text-align: right;
     }
     #home2 {
@@ -266,9 +266,6 @@ body {
         font-family: cursive;
         margin-top: -3vh;
     }
-    #avatar {
-        margin-right: 6vh;
-    }
     /* login */
     #formulaire {
         display: block;
@@ -285,6 +282,9 @@ body {
         width: 80vw;
         margin-top: 6vh;
         margin-left: 1em;
+    }
+    .username {
+        margin: 0;
     }
     /*body */
     .legumes {

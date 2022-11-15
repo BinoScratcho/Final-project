@@ -10,7 +10,7 @@ include './include/header.php';
            
     if(isset($_SESSION['username'])){
         echo'<img id="avatar" src="./images/avatar.png" alt="avatar">';
-        echo'' .$_SESSION['username']. '';
+        echo'<h3 class="username">' .$_SESSION['username']. '</h3>';
         echo'<button class="deco1"><a href="./deconnect.php">Deconnexion</a></button>';
         echo'<button class="deco1"><a href="./index_membre.php">Espace Gestion</a></button>';
         
