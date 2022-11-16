@@ -5,7 +5,7 @@ if (empty($_SESSION['username'])) {
 }
 include "./include/header.php";
 ?>
-<a href="./index.php">Retour à l'accueil</a><br>
+<a class="liens" href="./index.php">Retour à l'accueil</a><br>
 
 
 

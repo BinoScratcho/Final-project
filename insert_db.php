@@ -6,7 +6,7 @@
 
 <fieldset>
 <legend>Insertion</legend>
-<form action="./insertdb2_exe.php" method="POST" enctype="multipart/form-data"> <!-- enctype est necessaire si l'utilisateur doit upload un fichier directement depuis le formulaire   -->
+<form  action="./insertdb2_exe.php" method="POST" enctype="multipart/form-data"> <!-- enctype est necessaire si l'utilisateur doit upload un fichier directement depuis le formulaire   -->
 
 
 
