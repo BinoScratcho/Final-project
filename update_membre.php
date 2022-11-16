@@ -27,7 +27,7 @@ if (!empty($_POST)) {
         <label for="prenom">Nouveau prenom</label>
         <input type="text" name="prenom">
 
-        <input name="Submit" type="submit" value="Confirmer le changement" onclick="if (confirm('Attention,la fiche du membre va être modifiée')) { return TRUE; } else  { return FALSE; }">
+        <input name="Submit" type="submit" class="btn btn-submit" value="Confirmer le changement" onclick="if (confirm('Attention,la fiche du membre va être modifiée')) { return TRUE; } else  { return FALSE; }">
 
     </form>
 </fieldset>
