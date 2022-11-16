@@ -37,7 +37,7 @@ include './include/header.php';
 
 require './database.php';
 
-$req= $pdo->query('SELECT * FROM produits');
+$req= $pdo->query('SELECT * FROM produits order by legumes');
 
 while($data=$req->fetch()){
     echo 

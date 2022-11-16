@@ -1,7 +1,7 @@
 /*couleur de fond */
 
 body {
-    background-color: rgb(81, 158, 4);
+    background: linear-gradient(45deg, green, orange 60%, transparent);
 }
 
 
@@ -20,7 +20,14 @@ body {
 #slogan h1 {
     font-family: 'Cantarell', sans-serif;
     padding: 2em;
-    color: goldenrod;
+    color: #575411;
+}
+
+#hello {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 3em;
+    margin-top: 6em;
 }
 
 #home a {
@@ -125,6 +132,8 @@ body {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 #ancre {
@@ -287,6 +296,9 @@ body {
         margin: 0;
     }
     /*body */
+    #order {
+        font-size: large;
+    }
     .legumes {
         margin-top: -22vh;
     }
@@ -296,6 +308,7 @@ body {
         width: auto;
         height: 30vh;
     }
+    /* footer */
     .mentions {
         display: flex;
         align-items: center;
