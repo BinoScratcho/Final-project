@@ -394,13 +394,13 @@
                 margin-top: 2vh;
             }
             .deco1 {
-                display: flex;
-                text-decoration: none;
-                height: 22px;
-                width: 105px;
+                display: block;
+                height: 80px;
+                width: 90%;
                 font-size: 1.1rem;
-                margin-top: 0em;
                 color: black;
+                margin-right: auto;
+                margin-left: auto;
             }
             .deco2 {
                 text-decoration: none;
