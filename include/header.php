@@ -18,9 +18,9 @@
 
     <div class="entete">
 
-        <center>
+        
             <div id="logo"><img src=" ./images/logo.jpg" alt="Logo" />
-        </center>
+        
     </div>
     
         <div id="slogan">
