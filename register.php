@@ -2,9 +2,9 @@
 include "./include/header.php"
 ?>
 
-<a href="./index.php">Retour à l'accueil</a><br>
+<a class="liens" href="./index.php">Retour à l'accueil</a><br>
 
-<fieldset>
+<fieldset class="ft2">
 
     <legend>Bienvenue</legend>
     <form id="inscription" action="./insc.php" method="POST">
@@ -25,7 +25,7 @@ include "./include/header.php"
         <input type="password" name="confirm_pass" id="confpass" required>
 
 
-        <button type="submit">Inscription</button>
+        <button class="btn btn-submit" type="submit">Inscription</button>
 
     </form>
 
@@ -34,9 +34,9 @@ include "./include/header.php"
 
 <fieldset>
     <legend>Déjà inscrit?</legend>
-    <a class="deco1" href="./login.php">Connexion</a>
+    <a class="deco2" id="ancre2" href="./login.php">Connexion</a>
 
-    <a class="deco1" href="./deconnect.php">Déconnexion</a>
+    <a class="deco2" id="ancre2" href="./deconnect.php">Déconnexion</a>
 </fieldset>
 
 <?php

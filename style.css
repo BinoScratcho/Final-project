@@ -235,7 +235,7 @@
     
     #ancre2 {
         color: black;
-        padding: 1em;
+        padding: 0.3em;
         margin-top: 3vh;
         text-decoration: none;
     }
@@ -365,9 +365,13 @@
             margin-top: 2vh;
         }
         .deco1 {
-            width: 164px;
+            display: flex;
+            text-decoration: none;
+            height: 22px;
+            width: 105px;
             font-size: 1rem;
             margin-top: 0em;
+            color: black;
         }
         .deco2 {
             text-decoration: none;
