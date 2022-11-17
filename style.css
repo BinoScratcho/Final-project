@@ -384,9 +384,10 @@
             }
             #ancre2 {
                 color: black;
-                padding: 0em;
+                padding: 0.2em;
                 display: flex;
-                margin-top: 0vh;
+                margin-top: 3vh;
+                width: 50%;
             }
             #order {
                 display: block;
@@ -404,12 +405,9 @@
             }
             .deco2 {
                 text-decoration: none;
-                margin: 4px;
-                width: 120px;
-                height: 40px;
                 border: none;
                 background-color: #e67e22;
-                font-size: 1.1rem;
+                font-size: 1.7rem;
                 border-radius: 12px;
             }
             .liens {
