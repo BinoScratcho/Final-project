@@ -5,12 +5,12 @@ include './include/header.php';
 
 
 <div id=home2>
-    <img id="avatar" src="./images/avatar.png" alt="avatar">
+    <img id="avatar2" src="./images/avatar.png" alt="avatar">
     <?php
     
     session_start();
     if(isset($_SESSION['username'])){
-        echo 'Bonjour ' .$_SESSION['username']. '';
+        echo '<h3 class="username2"/h3>Bonjour ' .$_SESSION['username'];
     }    
      
      ?>
