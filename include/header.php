@@ -22,9 +22,9 @@
             <div id="logo"><img src=" ./images/logo.jpg" alt="Logo" />
         </center>
     </div>
-    <center>
+    
         <div id="slogan">
             <h1> Nos produits sont certifiés 100% bio et de saison </h1>
-    </center>
+    
     </div>
     </div>
