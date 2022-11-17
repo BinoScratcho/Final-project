@@ -15,7 +15,7 @@ include './include/header.php';
      
      ?>
 
-<button><a href="./deconnect.php">Deconnexion</a></button>
+<button class="deco2"><a id="ancre2" href="./deconnect.php">Deconnexion</a></button>
 
 </div>
 

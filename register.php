@@ -34,9 +34,9 @@ include "./include/header.php"
 
 <fieldset>
     <legend>Déjà inscrit?</legend>
-    <a href="./login.php">Connexion</a>
+    <a class="deco1" href="./login.php">Connexion</a>
 
-    <a href="./deconnect.php">Déconnexion</a>
+    <a class="deco1" href="./deconnect.php">Déconnexion</a>
 </fieldset>
 
 <?php
