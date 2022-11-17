@@ -332,7 +332,7 @@
                 text-align: right;
             }
             #home2 {
-                margin-top: -42vh;
+                margin-top: -47vh;
                 text-align: right;
             }
             .username {
@@ -343,7 +343,7 @@
                 margin-top: 0em;
             }
             #avatar2 {
-                margin-right: 6vw;
+                margin-left: 67vw;
             }
             .champs {
                 background-image: none;
@@ -383,9 +383,9 @@
             }
             #ancre2 {
                 color: black;
-                padding: 0.2em;
+                padding: 0.4em;
                 display: flex;
-                margin-top: 3vh;
+                margin-top: 0vh;
                 width: 50%;
             }
             #order {
@@ -406,7 +406,7 @@
                 text-decoration: none;
                 border: none;
                 background-color: #e67e22;
-                font-size: 1.7rem;
+                font-size: 1.3rem;
                 border-radius: 12px;
             }
             .liens {
