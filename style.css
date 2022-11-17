@@ -19,6 +19,7 @@
             font-family: 'Cantarell', sans-serif;
             padding: 2em;
             color: #575411;
+            text-align: center;
         }
         
         #hello {
@@ -444,7 +445,7 @@
             #slogan {
                 font-size: 0.9em;
                 margin-top: 0em;
-                width: 106%;
+                width: 100%;
                 margin-left: -1em;
             }
             #hello {
