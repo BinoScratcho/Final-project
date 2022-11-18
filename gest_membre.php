@@ -1,9 +1,9 @@
 <?php
-session_start();
+include "./include/header.php";
+
 if (empty($_SESSION['username'])) {
   header('location: ./login.php');
 }
-include "./include/header.php";
 ?>
 <a class="liens" href="./index.php">Retour à l'accueil</a><br>
 
@@ -17,7 +17,7 @@ include "./include/header.php";
 require "./database.php";
 $req =$pdo->query("SELECT * FROM users");
 while($data =$req->fetch()){
-    echo "<tr> <td>$data->id</td><td>$data->username</td><td>$data->nom</td><td>$data->prenom</td>";
+    echo "<tr> <td>$data->id</td><td>". mb_strimwidth($data->username, 0, 10, "...") ."</td><td>". mb_strimwidth($data->nom, 0, 10, "...") ."</td><td>$data->prenom</td>";
     echo "<td>";
     echo "<a class='btn btn-link' href='./update_membre.php?id=$data->id'><i class='fa-solid fa-pen-to-square'></i> </a>";
     echo "<button class='btn btn-delete' onclick='confirmDeleteUsers(". $data->id .")'><i class='fa-solid fa-trash-can'></i></button>";

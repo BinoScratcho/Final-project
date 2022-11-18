@@ -1,499 +1,529 @@
-    /*couleur de fond */
-    
-    body {
-        background: linear-gradient(100deg, green, orange 60%, transparent);
-    }
-    /* entete */
-    
-    #logo {
-        text-align: center;
-        display: revert-layer;
-        margin-bottom: 10vh;
-    }
-    
-    #logo img {
-        height: 15em;
-    }
-    
-    #slogan h1 {
-        font-family: 'Cantarell', sans-serif;
-        padding: 2em;
-        color: #575411;
-        text-align: center;
-    }
-    
-    #hello {
-        font-size: x-large;
-        font-weight: bold;
-        margin-left: 3em;
-        margin-top: 6em;
-    }
-    
-    #home a {
-        font-family: 'Cantarell', sans-serif;
-        text-decoration: none;
-        color: darkslategrey;
-        font-weight: bold;
-    }
-    
-    #home {
-        padding-bottom: 3vh;
-        margin-top: -52vh;
-        text-align: right;
-    }
-    
-    #avatar {
-        margin-right: 6vw;
-    }
-    
-    #avatar2 {
-        margin-right: 13vw;
-    }
-    
-    .username {
-        margin-right: 6vw;
-    }
-    
-    .username2 {
-        margin-right: -3vw;
-        margin-top: -2em;
-    }
-    /*boutons */
-    /* Style de base des boutons*/
-    
-    .btn {
-        padding: .5rem 1.5rem;
-        border: none;
-        background-color: #18dcff;
-        cursor: pointer;
-        color: white;
-        font-size: 1.2rem;
-        margin: 5px;
-    }
-    
-    .btn>.fa-solid {
-        transition: transform .5s;
-    }
-    
-    .btn:hover>.fa-solid {
-        transform: scale(1.3);
-    }
-    /* Styles spécifiques pour chaque bouton */
-    
-    .btn-delete {
-        background-color: #ff3838;
-    }
-    
-    .btn-link {
-        text-decoration: none;
-        color: white;
-        padding: .5rem 1.2rem;
-    }
-    
-    .btn-submit {
-        font-size: 1.1rem;
-        background-color: #000e00;
-    }
-    
-    .deco1 {
-        margin: 4px;
-        width: 150px;
-        height: 40px;
-        border: none;
-        background-color: #e67e22;
-        transition: all 1s;
-        font-size: 1.1rem;
-        border-radius: 12px;
-        cursor: pointer;
-    }
-    
-    .deco1:hover {
-        transform: scale(1.05);
-        background-color: #3909096e;
-    }
-    
-    .deco2 {
-        margin: 4px;
-        width: 150px;
-        height: 40px;
-        border: none;
-        background-color: #e67e22;
-        transition: all 1s;
-        font-size: 1.1rem;
-        border-radius: 12px;
-        cursor: pointer;
-    }
-    
-    .deco2:hover {
-        transform: scale(1.05);
-        background-color: #3909096e;
-    }
-    
-    .liens {
-        text-decoration: none;
-        color: black;
-        position: relative;
-        font-weight: bold;
-        font-size: x-large;
-    }
-    
-    .liens::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: rgba(235, 235, 11, 0.4);
-        width: 10%;
-        height: 5px;
-        transition: all 1s;
-    }
-    
-    .liens:hover::after {
-        width: 100%;
-    }
-    /* style pour page home2 */
-    
-    #home2 {
-        text-align: right;
-        margin-top: -39vh;
-        max-width: 97%;
-    }
-    /* Body */
-    
-    .champs {
-        background-image: url("./images/champs.jpg");
-        background-position: center;
-        height: 75vh;
-        margin-top: 43vh;
-        background-size: 80%;
-        background-repeat: no-repeat;
-    }
-    
-    .champs2 {
-        background-image: url("./images/champs.jpg");
-        background-position: center;
-        height: 78vh;
-        margin-top: 62vh;
-        background-size: 80%;
-        background-repeat: no-repeat;
-    }
-    
-    #intro {
-        position: absolute;
-        left: 20%;
-        font-size: x-large;
-        color: goldenrod;
-        justify-content: center;
-        display: flex;
-        text-align: revert-layer;
-        max-width: 62%;
-        font-family: cursive;
-    }
-    /*tableaux inscription et gestion */
-    
-    #formulaire {
-        display: flex;
-        font-family: cursive;
-    }
-    
-    #co {
-        font-family: cursive;
-        margin-left: 20em;
-        width: 18vw;
-        font-weight: bold;
-    }
-    
-    #inscription {
-        display: flex;
-        flex-direction: column;
-        max-width: 15em;
-        margin: auto;
-        text-align: center;
-        border: 2px black solid;
-        height: 55vh;
-        justify-content: space-evenly;
-        padding: 3vh;
-    }
-    /*espace gestion */
-    
-    .ft1 {
-        margin-top: 3em;
-        font-weight: bold;
-        margin-bottom: 3em;
-    }
-    
-    .ft2 {
-        margin-top: 3em;
-        font-weight: bold;
-    }
-    
-    .t1 {
-        margin-top: 2em;
-    }
-    
-    .t2 {
-        margin-top: 5vh;
-    }
-    
-    td {
-        padding: 2rem;
-    }
-    
-    #order {
-        height: 40vh;
-        padding: 2em;
-        max-width: 100%;
-        display: flex;
-        justify-content: space-between;
-        font-weight: bold;
-        font-size: x-large;
-    }
-    
-    #ancre {
-        color: black;
-        padding: 1em;
-        margin-top: 3vh;
-    }
-    
-    #ancre2 {
-        color: black;
-        padding: 0.3em;
-        margin-top: 3vh;
-        text-decoration: none;
-    }
-    /*affichage légumes */
-    
-    .legumes h4 {
-        text-align: center;
-        font-family: cursive;
-    }
-    
-    .legumes p {
-        text-align: center;
-        font-family: cursive;
-    }
-    
-    .legumes {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 3vh;
-        flex-wrap: wrap;
-        margin-top: 15vh;
-    }
-    
-    .image_1 {
-        width: 40vh;
-        border: 2px black solid;
-        margin: auto;
-        border-radius: 15px;
-    }
-    /* Footer  */
-    
-    .mentions {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        position: relative;
-        margin-top: 10vh;
-        font-weight: bold;
-        font-size: x-large;
-        text-decoration: none;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    .test {
-        display: none;
-    }
-    
-    .show {
-        display: inline;
-    }
-    /* Responsive */
-    /* Laptop L */
-    
-    @media screen and (max-width: 1440px) {
-        .champs {
-            height: 42vh;
-            margin-bottom: 20vh;
+        /*couleur de fond */
+        
+        body {
+            background: linear-gradient(100deg, green, orange 60%, transparent);
         }
-    }
-    /* Tablet */
-    
-    @media screen and (max-width: 768px) {}
-    
-    @media screen and (min-width: 0px) and (max-width: 440px) {
-        #logo img {
-            height: 10em;
-        }
+        /* entete */
+        
         #logo {
-            margin-bottom: 10em;
+            text-align: center;
+            display: revert-layer;
+            margin-bottom: 10vh;
         }
-        #home {
-            margin-top: -35vh;
-            text-align: right;
+        
+        #logo img {
+            height: 15em;
         }
-        #home2 {
-            margin-top: -47vh;
-            text-align: right;
+        
+        #slogan h1 {
+            font-family: 'Cantarell', sans-serif;
+            padding: 2em;
+            color: #575411;
+            text-align: center;
         }
-        .username {
-            margin-top: 1px;
-            margin-right: 1px;
-        }
-        .username2 {
-            margin-right: -5vw;
-            margin-top: 0em;
-        }
-        #avatar {
-            max-width: 50px;
-            max-height: 50px;
-            margin-top: 40px;
-        }
-        #avatar2 {
-            margin-left: 73vw;
-        }
-        .champs {
-            background-image: none;
-            height: 70vh;
-        }
-        .champs2 {
-            background-image: none;
-            margin-top: 30vh;
-        }
-        /* login */
-        #utilisateur {
-            width: 53vw;
-        }
-        #mdp {
-            margin-left: 7vw;
-            width: 53vw;
-            margin-top: 3vh;
-        }
-        #co {
-            width: 85vw;
-            font-weight: bold;
-            font-family: cursive;
-            margin-top: 6vh;
-        }
-        #deco {
-            width: 21vh;
-        }
-        #espace {
-            width: 22vh;
-        }
-        /*espace gestion et bouttons*/
-        #ancre {
-            color: black;
-            padding: 0em;
-            display: flex;
-            margin-top: 3vh;
-        }
-        #ancre2 {
-            color: black;
-            padding: 0.4em;
-            display: flex;
-            margin-top: 0vh;
-            width: 50%;
-        }
-        #order {
-            display: block;
-            padding: 1em;
-            margin-top: 2vh;
-        }
-        .deco1 {
-            display: block;
-            height: 40px;
-            width: 90%;
-            font-size: 1.1rem;
-            color: black;
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .deco2 {
-            text-decoration: none;
-            border: none;
-            background-color: #e67e22;
-            font-size: 1.3rem;
-            border-radius: 12px;
-        }
-        .liens {
-            text-decoration: underline;
-            color: black;
-            font-weight: bold;
-        }
-        .ft1 td {
-            padding: 0rem;
-        }
-        .ft2 td {
-            padding: 0rem;
-        }
-        .btn-link {
-            text-decoration: none;
-            color: white;
-            padding: .4rem 1rem;
-            margin-left: 28px;
-        }
-        .btn-delete {
-            padding: .4rem 1.1rem;
-            border: none;
-            margin-left: 27px;
-        }
-        /*intro*/
-        #intro {
-            position: absolute;
-            left: 18%;
-            font-size: x-large;
-            color: darkslategrey;
-            max-width: 70%;
-            font-family: cursive;
-            margin-top: -3vh;
-        }
-        #slogan {
-            font-size: 0.6em;
-            margin-top: 0em;
-            width: 105%;
-            margin-left: -1em;
-        }
+        
         #hello {
             font-size: x-large;
             font-weight: bold;
-            margin-left: 0em;
+            margin-left: 3em;
             margin-top: 6em;
         }
-        /* login */
+        
+        #home a {
+            font-family: 'Cantarell', sans-serif;
+            text-decoration: none;
+            color: darkslategrey;
+            font-weight: bold;
+        }
+        
+        #home {
+            padding-bottom: 3vh;
+            margin-top: -34vh;
+            text-align: right;
+        }
+        
+        #avatar {
+            margin-right: 6vw;
+        }
+        
+        #avatar2 {
+            margin-right: 13vw;
+        }
+        
+        .username {
+            margin-right: 6vw;
+        }
+        
+        .username2 {
+            margin-right: -3vw;
+            margin-top: -2em;
+        }
+        /*boutons */
+        /* Style de base des boutons*/
+        
+        .btn {
+            padding: .5rem 1.5rem;
+            border: none;
+            background-color: #18dcff;
+            cursor: pointer;
+            color: white;
+            font-size: 1.2rem;
+            margin: 5px;
+        }
+        
+        .btn>.fa-solid {
+            transition: transform .5s;
+        }
+        
+        .btn:hover>.fa-solid {
+            transform: scale(1.3);
+        }
+        /* Styles spécifiques pour chaque bouton */
+        
+        .btn-delete {
+            background-color: #ff3838;
+        }
+        
+        .btn-link {
+            text-decoration: none;
+            color: white;
+            padding: .5rem 1.2rem;
+        }
+        
+        .btn-submit {
+            font-size: 1.1rem;
+            background-color: #000e00;
+        }
+        
+        .deco1 {
+            margin: 4px;
+            width: 150px;
+            height: 40px;
+            border: none;
+            background-color: #e67e22;
+            transition: all 1s;
+            font-size: 1.1rem;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+        
+        .deco1:hover {
+            transform: scale(1.05);
+            background-color: #3909096e;
+        }
+        
+        .deco2 {
+            margin: 4px;
+            width: 150px;
+            height: 40px;
+            border: none;
+            background-color: #e67e22;
+            transition: all 1s;
+            font-size: 1.1rem;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+        
+        .deco2:hover {
+            transform: scale(1.05);
+            background-color: #3909096e;
+        }
+        
+        .liens {
+            text-decoration: none;
+            color: black;
+            position: relative;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        
+        .liens::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(235, 235, 11, 0.4);
+            width: 10%;
+            height: 5px;
+            transition: all 1s;
+        }
+        
+        .liens:hover::after {
+            width: 100%;
+        }
+        /* style pour page home2 */
+        
+        #home2 {
+            text-align: right;
+            margin-top: -39vh;
+            max-width: 97%;
+        }
+        /* Body */
+        
+        .champs {
+            background-image: url("./images/champs.jpg");
+            background-position: center;
+            height: 75vh;
+            margin-top: 43vh;
+            background-size: 80%;
+            background-repeat: no-repeat;
+        }
+        
+        .champs2 {
+            background-image: url("./images/champs.jpg");
+            background-position: center;
+            height: 78vh;
+            margin-top: 62vh;
+            background-size: 80%;
+            background-repeat: no-repeat;
+        }
+        
+        #intro {
+            position: absolute;
+            left: 20%;
+            font-size: x-large;
+            color: goldenrod;
+            justify-content: center;
+            display: flex;
+            text-align: revert-layer;
+            max-width: 62%;
+            font-family: cursive;
+        }
+        /*tableaux inscription et gestion */
+        
         #formulaire {
-            display: block;
+            display: flex;
+            font-family: cursive;
         }
-        #utilisateur {
-            width: 88vw;
-        }
-        #mdp {
-            width: 88vw;
-            margin-top: 3vh;
-            margin-left: 0;
-        }
+        
         #co {
-            width: 80vw;
-            margin-top: 6vh;
-            margin-left: 1em;
+            cursor: pointer;
+            font-family: cursive;
+            margin-left: 20em;
+            width: 18vw;
+            font-weight: bold;
         }
-        /*body */
-        #order {
-            font-size: large;
-            height: 15vh;
+        
+        #co:hover {
+            transform: scale(1.05);
+            background-color: black;
+            color: white;
+            border: none;
         }
-        .legumes {
-            margin-top: -20vh;
-        }
-        .image_1 {
+        
+        #inscription {
+            display: flex;
+            flex-direction: column;
+            max-width: 15em;
             margin: auto;
-            border-radius: 20px;
-            width: auto;
-            height: 30vh;
+            text-align: center;
+            border: 2px black solid;
+            height: 55vh;
+            justify-content: space-evenly;
+            padding: 3vh;
         }
-        /* footer */
+        /*espace gestion */
+        
+        .ft1 {
+            margin-top: 3em;
+            font-weight: bold;
+            margin-bottom: 3em;
+        }
+        
+        .ft2 {
+            margin-top: 3em;
+            font-weight: bold;
+        }
+        
+        .ft3 {
+            margin-right: 3em;
+            font-weight: bold;
+        }
+        
+        #form {
+            display: flex;
+        }
+        
+        .t1 {
+            margin-top: 2em;
+        }
+        
+        .t2 {
+            margin-top: 5vh;
+        }
+        
+        td {
+            padding: 2rem;
+        }
+        
+        #order {
+            height: 40vh;
+            padding: 2em;
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        
+        #ancre {
+            color: black;
+            padding: 1em;
+            margin-top: 3vh;
+        }
+        
+        #ancre2 {
+            color: black;
+            padding: 0.3em;
+            margin-top: 3vh;
+            text-decoration: none;
+        }
+        /*affichage légumes */
+        
+        .legumes h4 {
+            text-align: center;
+            font-family: cursive;
+        }
+        
+        .legumes p {
+            text-align: center;
+            font-family: cursive;
+        }
+        
+        .legumes {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 3vh;
+            flex-wrap: wrap;
+            margin-top: 15vh;
+        }
+        
+        .image_1 {
+            width: 40vh;
+            border: 2px black solid;
+            margin: auto;
+            border-radius: 15px;
+        }
+        /* Footer  */
+        
         .mentions {
-            display: block;
-            font-size: medium;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            position: relative;
+            margin-top: 10vh;
+            font-weight: bold;
+            font-size: x-large;
+            text-decoration: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-    }
+        
+        .test {
+            display: none;
+        }
+        
+        .show {
+            display: inline;
+        }
+        /* Responsive */
+        /* Laptop L */
+        
+        @media screen and (max-width: 1440px) {
+            .champs {
+                height: 42vh;
+                margin-bottom: 20vh;
+            }
+        }
+        /* Tablet */
+        
+        @media screen and (max-width: 768px) {}
+        
+        @media screen and (min-width: 0px) and (max-width: 440px) {
+            #logo img {
+                height: 10em;
+            }
+            #logo {
+                margin-bottom: 0;
+                height: 16em;
+            }
+            #home {
+                margin-top: -25vh;
+                text-align: right;
+            }
+            #home2 {
+                text-align: right;
+            }
+            .username {
+                margin-top: 1px;
+                margin-right: 1px;
+            }
+            .username2 {
+                margin-right: -5vw;
+                margin-top: 0em;
+            }
+            #avatar {
+                max-width: 50px;
+                max-height: 50px;
+                margin-top: 40px;
+            }
+            #avatar2 {
+                margin-left: 73vw;
+            }
+            .champs {
+                background-image: none;
+                height: 70vh;
+            }
+            .champs2 {
+                background-image: none;
+                margin-top: 30vh;
+            }
+            /* login */
+            #utilisateur {
+                width: 53vw;
+            }
+            #mdp {
+                margin-left: 7vw;
+                width: 53vw;
+                margin-top: 3vh;
+            }
+            #co {
+                width: 85vw;
+                font-weight: bold;
+                font-family: cursive;
+                margin-top: 6vh;
+            }
+            #deco {
+                width: 21vh;
+            }
+            #espace {
+                width: 22vh;
+            }
+            /*espace gestion et bouttons*/
+            #ancre {
+                color: black;
+                padding: 0em;
+                display: flex;
+                margin-top: 3vh;
+            }
+            #ancre2 {
+                color: black;
+                padding: 0.4em;
+                display: flex;
+                margin-top: 0vh;
+                width: 50%;
+            }
+            #order {
+                display: block;
+                padding: 1em;
+                margin-top: 2vh;
+            }
+            .deco1 {
+                display: block;
+                height: 40px;
+                width: 90%;
+                font-size: 1.1rem;
+                color: black;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .deco2 {
+                text-decoration: none;
+                border: none;
+                background-color: #e67e22;
+                font-size: 1.3rem;
+                border-radius: 12px;
+            }
+            .liens {
+                text-decoration: underline;
+                color: black;
+                font-weight: bold;
+            }
+            .ft1 td {
+                padding: 0rem;
+            }
+            .ft2 td {
+                padding: 0rem;
+            }
+            .ft3 {
+                width: 94px;
+                padding: 0.6em;
+            }
+            .ft4 {
+                width: -1px;
+                padding: 0.6em;
+                font-weight: bold;
+            }
+            .btn-link {
+                text-decoration: none;
+                color: white;
+                padding: .4rem 1rem;
+                margin-left: 28px;
+            }
+            .btn-delete {
+                padding: .4rem 1.1rem;
+                border: none;
+                margin-left: 27px;
+            }
+            #form {
+                display: flex;
+                flex-direction: column;
+            }
+            /*intro*/
+            #intro {
+                position: absolute;
+                left: 18%;
+                font-size: x-large;
+                color: darkslategrey;
+                max-width: 70%;
+                font-family: cursive;
+                margin-top: -3vh;
+            }
+            #slogan {
+                font-size: 0.6em;
+                margin-top: 0em;
+                width: 105%;
+                margin-left: -1em;
+            }
+            #hello {
+                font-size: x-large;
+                font-weight: bold;
+                margin-left: 0em;
+                margin-top: 6em;
+            }
+            /* login */
+            #formulaire {
+                display: block;
+            }
+            #utilisateur {
+                width: 88vw;
+            }
+            #mdp {
+                width: 88vw;
+                margin-top: 3vh;
+                margin-left: 0;
+            }
+            #co {
+                width: 80vw;
+                margin-top: 6vh;
+                margin-left: 1em;
+            }
+            /*body */
+            #order {
+                font-size: large;
+                height: 15vh;
+            }
+            .legumes {
+                margin-top: -20vh;
+            }
+            .image_1 {
+                margin: auto;
+                border-radius: 20px;
+                width: auto;
+                height: 30vh;
+            }
+            /* footer */
+            .mentions {
+                display: block;
+                font-size: medium;
+            }
+        }

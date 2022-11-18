@@ -12,4 +12,7 @@
         <button type="submit" name="submit" id="co">&nbsp;Connexion</button></form>
 </fieldset>
 <?php include "./include/footer.php";
+// Height #slogan ligne 421
+// mb #logo ligne 328
+
 ?>

@@ -1,9 +1,9 @@
 <?php
-session_start();
+include "./include/header.php";
 if(empty($_SESSION['username'])){
     header('location: ./login.php');
 }
-include "./include/header.php";
+
 ?>
  
 <div id="hello"><p>Bonjour <?php echo $_SESSION['nom'] . " ".  $_SESSION['prenom']  ?>,

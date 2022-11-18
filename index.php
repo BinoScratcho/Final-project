@@ -6,7 +6,6 @@ include './include/header.php';
 
 <div id=home>
  <?php
-      session_start(); 
            
     if(isset($_SESSION['username'])){
         echo'<img id="avatar" src="./images/avatar.png" alt="avatar">';
@@ -46,7 +45,7 @@ while($data=$req->fetch()){
          
             <p>'.$data->prix.'€/kg</p>
             <div>
-                <img class="image_1" src=" uploads/'.$data->photo.'" alt="">
+                <img class="image_1" src=" uploads/'.$data->photo.'" alt="" width="190" height="250">
             </div>
         </div> ';
 

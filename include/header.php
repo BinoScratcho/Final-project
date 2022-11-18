@@ -1,3 +1,7 @@
+<?php
+    if(!isset($_SESSION["username"]))
+        session_start(); 
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,14 +21,14 @@
 
 
     <div class="entete">
+        <div id="logo"><img src=" ./images/logo.jpg" alt="Logo"></div>
+    </div>
 
-        
-            <div id="logo"><img src=" ./images/logo.jpg" alt="Logo" />
-        
-    </div>
-    
-        <div id="slogan">
-            <h1> Nos produits sont certifiés 100% bio et de saison </h1>
-    
-    </div>
-    </div>
+    <?php 
+if (!isset($_SESSION["user_kind"]) || $_SESSION["user_kind"] == 2)
+    {
+    ?>
+    <div id="slogan">
+            <h1> Nos produits sont certifiés 100% bio et de saison </h1> 
+        </div>
+    <?php } ?>
