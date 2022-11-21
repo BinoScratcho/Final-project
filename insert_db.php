@@ -10,15 +10,17 @@
 
 
 <div class="ft3">
-<label for="legumes">Légumes:</label>
-<input type="text" name="legumes" id="legumes" required>
+<div class="insertleg">    
+<label for="legumes"id ="legumes2">Légumes:</label>
+<input type="text" name="legumes" id="legumesins" required>
+</div>
 </div>
 <div class="ft3">
-<label for="prix">Nouveau prix</label>
+<label id="prix" for="prix">Nouveau prix</label>
 <input type="number" step="any" name="prix" min="1" required>
 </div>
 <div class="ft4">
-<label for="photo">Nouvelle photo</label>
+<label id="photo" for="photo">Nouvelle photo</label>
 <input type="file" name="photo" required>
 </div>
 <button id="co" name="bouton" type="submit">Ajouter l'article</button>

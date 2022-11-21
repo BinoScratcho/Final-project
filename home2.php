@@ -45,7 +45,7 @@ while($data=$req->fetch()){
          
             <p>'.$data->prix.'€/kg</p>
             <div>
-                <img class="image_1" src=" uploads/'.$data->photo.'" alt="">
+                <img class="image_1" src=" uploads/'.$data->photo.'" alt=""alt="" width="190" height="250" >
             </div>
         </div> ';
 
