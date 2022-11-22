@@ -28,7 +28,7 @@ if(!empty($_POST)){
 <label id="px" for="prix">Nouveau prix</label>
 <input type="number" step="any" name="prix">
 
-<label id="foto" for="photo">Nouvelle photo</label>
+<label  for="photo">Nouvelle photo</label>
 <input type="file" name="photo">
 
 <input name="Submit" type="submit" value="Confirmer le changement" onclick="if (confirm('Attention, cette fiche va être modifié')) { return TRUE; } else  { return FALSE; }">

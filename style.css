@@ -46,10 +46,12 @@ body {
 
 #avatar {
     margin-right: 6vw;
+    border-radius: 50%;
 }
 
 #avatar2 {
     margin-right: 13vw;
+    border-radius: 50%;
 }
 
 .username {
