@@ -193,13 +193,14 @@ body {
 #intro {
     position: absolute;
     left: 20%;
-    font-size: x-large;
+    font-size: large;
     color: goldenrod;
     justify-content: center;
     display: flex;
     text-align: revert-layer;
-    max-width: 62%;
+    max-width: 64%;
     font-family: cursive;
+    margin-top: 3em;
 }
 
 
@@ -361,6 +362,12 @@ td {
 /* Laptop  */
 
 @media screen and (min-width: 769px) and (max-width: 1310px) {
+    /*body*/
+    #intro {
+        margin-top: -4em;
+        font-size: large;
+        color: darkslategrey;
+    }
     /* insertion d'article */
     #form {
         display: block;
