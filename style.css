@@ -274,8 +274,12 @@ body {
     margin-top: 5vh;
 }
 
+.t2 th {
+    padding: 0.5em;
+}
+
 td {
-    padding: 2rem;
+    padding: 0.2em;
 }
 
 #order {
@@ -635,7 +639,11 @@ td {
     }
     .ft2 td {
         padding: 0rem;
+        max-width: 7em;
     }
+    /* .ft2 th {
+        padding-bottom: 1em;
+    } */
     .ft3 {
         width: 94px;
         padding: 0.6em;
@@ -719,4 +727,29 @@ td {
         display: block;
         font-size: medium;
     }
+}
+
+
+/* ===================================== */
+
+.art {
+    display: flex;
+    justify-content: space-around;
+}
+
+.art p {
+    padding: 0.3em;
+    width: 12vw;
+    text-align: center;
+    display: flex;
+}
+
+.art p:first-child {
+    width: 8vw;
+}
+
+.art p a,
+.art p button {
+    padding: 0.3em;
+    margin: 0 1vw 0 0;
 }

@@ -23,7 +23,7 @@ while($data = $req->fetch()){
     echo "<button class='btn btn-delete' onclick='confirmDeleteArticle(". $data->id .")'><i class='fa-solid fa-trash-can'></button>";
     echo "</td></tr>";
 }
-$req = $pdo->prepare("DELETE FROM produits WHERE id = ?");
+
 
 
 

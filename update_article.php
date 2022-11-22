@@ -1,7 +1,6 @@
 <?php
 include './include/header.php';
-session_start();
-$id =$_GET['id'];
+
 if(!empty($_POST)){
     $legumes = $_POST['legumes'];
     $prix =$_POST['prix'];
@@ -23,13 +22,13 @@ if(!empty($_POST)){
 
 <form action="#" method="POST">
     
-<label for="legumes">Nouveaux légumes</label>
+<label id="leg" for="legumes">Nouveaux légumes</label>
 <input type="text" name="legumes">
 
-<label for="prix">Nouveau prix</label>
+<label id="px" for="prix">Nouveau prix</label>
 <input type="number" step="any" name="prix">
 
-<label for="photo">Nouvelle photo</label>
+<label id="foto" for="photo">Nouvelle photo</label>
 <input type="file" name="photo">
 
 <input name="Submit" type="submit" value="Confirmer le changement" onclick="if (confirm('Attention, cette fiche va être modifié')) { return TRUE; } else  { return FALSE; }">

@@ -1,7 +1,6 @@
 <?php
 include './include/header.php';
-session_start();
-$id = $_GET['id'];
+
 if (!empty($_POST)) {
     $username = $_POST['username'];
     $nom = $_POST['nom'];
