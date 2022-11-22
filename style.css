@@ -194,13 +194,14 @@ body {
     position: absolute;
     left: 20%;
     font-size: large;
-    color: goldenrod;
+    color: darkslategrey;
     justify-content: center;
     display: flex;
     text-align: revert-layer;
     max-width: 64%;
     font-family: cursive;
-    margin-top: 3em;
+    margin-top: -6em;
+    font-weight: bold;
 }
 
 
@@ -368,6 +369,40 @@ td {
         font-size: large;
         color: darkslategrey;
     }
+    .username2 {
+        margin-right: -3vw;
+        margin-top: 0em;
+    }
+    #intro {
+        margin-top: -16em;
+    }
+    .legumes {
+        margin-top: -18vh;
+    }
+    .champs {
+        margin-top: 30vh
+    }
+    #home {
+        padding-bottom: 10vh;
+        margin-top: -9vh;
+        text-align: right;
+    }
+    /*inscription */
+    #utilisateur {
+        height: 2em;
+        width: 9em;
+    }
+    #mdp {
+        height: 2em;
+        width: 10em;
+    }
+    #co {
+        height: 2.5em;
+        width: 10em;
+    }
+    .ft2 {
+        width: 100%;
+    }
     /* insertion d'article */
     #form {
         display: block;
@@ -427,7 +462,7 @@ td {
         background-image: none;
     }
     .legumes {
-        margin-top: -20vh;
+        margin-top: -24vh;
     }
     /*formulaire inscription et log */
     #formulaire {
@@ -436,7 +471,7 @@ td {
     }
     #utilisateur {
         height: 2em;
-        margin-right: 0.5em;
+        margin-right: 4em;
         margin-bottom: 2em;
     }
     #mdp {
@@ -526,7 +561,7 @@ td {
     }
     .champs2 {
         background-image: none;
-        margin-top: 30vh;
+        margin-top: 40vh;
     }
     /* login */
     #utilisateur {

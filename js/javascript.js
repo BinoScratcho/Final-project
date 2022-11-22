@@ -13,3 +13,7 @@ function confirmDeleteUsers(id) {
         (alert("annuler"))
     }
 }
+
+console.log("ijdsoifjdjf")
+let images = document.getElementsByClassName("image_1")
+console.log(images)

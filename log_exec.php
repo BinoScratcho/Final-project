@@ -6,7 +6,7 @@ if(isset($_POST["submit"]))
 {
     if(empty($_POST['username']) || empty($_POST['user_pass']))
     {
-        echo 'remplissage absent';
+        echo 'Veuillez verifier votre nom d utilisateur et votre mot de passe';
     }
 
     else {
@@ -32,7 +32,7 @@ if(isset($_POST["submit"]))
                 $_SESSION['user_kind'] =$result['user_kind'];
                 exit(header('location: index_membre.php'));
               }else{
-                  echo 'arf!';
+                  echo 'Veuillez verifier votre mot de passe';
                   header('location: login.php');
               }
             }
