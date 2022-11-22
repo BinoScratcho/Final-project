@@ -18,7 +18,7 @@ function confirmDeleteUsers(id) {
 function zoom() {
 
     if (zoomed) {
-        this.style.transform = "scale(1)";
+        this.style.transform = "";
     } else {
         this.style.transform = "scale(1.4)";
     }
