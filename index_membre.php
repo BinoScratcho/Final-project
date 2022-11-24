@@ -20,7 +20,7 @@ Que voulez-vous faire ? </p><br>
 <div id="order">
 <?php
 if($_SESSION['user_kind'] == 1){
-    echo '<a id="ancre" href="./gest_membre2.php">Gérer les membres &emsp;</a>';
+    echo '<a id="ancre" href="./gest_membre.php">Gérer les membres &emsp;</a>';
     echo '<a id="ancre" href="./gest_art2.php">Gérer les articles &emsp;</a>' ;
 }
 
