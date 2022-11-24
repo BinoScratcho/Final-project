@@ -447,7 +447,7 @@ td {
 @media screen and (min-width: 441px) and (max-width: 768px) {
     /*page accueil "home" */
     #home {
-        margin-top: -27vh;
+        margin-top: -7vh;
     }
     /* connection*/
     #mdp {
@@ -558,7 +558,7 @@ td {
         height: 16em;
     }
     #home {
-        margin-top: -25vh;
+        margin-top: -2vh;
         text-align: right;
     }
     #home2 {
