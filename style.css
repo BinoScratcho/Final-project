@@ -393,7 +393,7 @@ td {
         margin-bottom: 0em;
     }
     .legumes {
-        margin-top: -18vh;
+        margin-top: -12vh;
     }
     .champs {
         margin-top: 30vh
@@ -447,7 +447,7 @@ td {
 @media screen and (min-width: 441px) and (max-width: 768px) {
     /*page accueil "home" */
     #home {
-        margin-top: -7vh;
+        margin-top: -27vh;
     }
     /* connection*/
     #mdp {
@@ -464,7 +464,7 @@ td {
     }
     #home2 {
         text-align: right;
-        margin-top: -39vh;
+        margin-top: -44vh;
         max-width: 97%;
     }
     #sloganh1 {
@@ -474,11 +474,20 @@ td {
         color: darkslategrey;
         margin-top: -12em;
     }
+    .champs {
+        margin-top: 30vh;
+    }
+    .champs {
+        background-image: none;
+    }
     .champs2 {
         background-image: none;
     }
     .legumes {
         margin-top: -24vh;
+    }
+    .legumes1 {
+        margin-top: -60vh;
     }
     /*formulaire inscription et log */
     #formulaire {

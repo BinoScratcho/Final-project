@@ -6,31 +6,37 @@ if(empty($_SESSION['username'])){
 
 ?>
  <a class="liens" href="./index.php">Retour à l'accueil</a><br>
-<fieldset class="ft1">
-<legend>Liste des fruits & légumes</legend>
-<table class="t1">
-    
-<tr> <th>ID</th> <th>légumes</th> <th>Prix</th> <th>Photo</th></tr>
-
+ <article class="art">
+  <p>ID</p>
+  <p>Pseudo</p>
+  <p>Nom</p>
+  <p>Prénom</p>
+  <p>Actions</p>
+</article>
 <?php
-include "./database.php";
-$req = $pdo->query('SELECT * FROM produits');
-while($data = $req->fetch()){
-
-    echo "<tr> <td>$data->id</td><td>". mb_strimwidth($data->legumes, 0, 10, "...") ."</td><td>$data->prix</td><td>$data->photo</td>";
-    echo "<td>";
-    echo "<a class='btn btn-link' href='./update_article.php?id=$data->id'><i class='fa-solid fa-pen-to-square'></i> </a>";
-    echo "<button class='btn btn-delete' onclick='confirmDeleteArticle(". $data->id .")'><i class='fa-solid fa-trash-can'></button>";
-    echo "</td></tr>";
+require "./database.php";
+$req =$pdo->query("SELECT * FROM users");
+while($data =$req->fetch()){
+  echo"
+    <article class='art'>
+      <p>$data->id</p>
+      <p>".mb_strimwidth($data->username, 0, 10, '...')."</p>
+      <p>".mb_strimwidth($data->nom, 0, 10, '...')."</p>
+      <p>$data->prenom</p>
+      <p>
+        <a class='btn btn-link' href='./update_membre.php?id=$data->id'><i class='fa-solid fa-pen-to-square'></i> </a>
+        <button class='btn btn-delete' onclick='confirmDeleteUsers(". $data->id .")'><i class='fa-solid fa-trash-can'></i></button>
+      </p>
+    </article>
+  ";
+   
 }
-
-
-
-
-
 ?>
-</table>
+</main>
 </fieldset>
+<?php
+include './include/footer.php';
+?>
 <a class="liens" style="font-size: xx-large" href="./insert_db.php">Insérer des nouveaux fruits & légumes</a>
 
 <?php
