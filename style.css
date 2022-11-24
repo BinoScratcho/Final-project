@@ -22,6 +22,7 @@ body {
     padding: 2em;
     color: #575411;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 #hello {
@@ -179,7 +180,7 @@ body {
     background-position: center;
     height: 75vh;
     margin-top: 43vh;
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 
@@ -188,7 +189,7 @@ body {
     background-position: center;
     height: 78vh;
     margin-top: 62vh;
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 
@@ -202,7 +203,7 @@ body {
     text-align: revert-layer;
     max-width: 64%;
     font-family: cursive;
-    margin-top: -6em;
+    margin-top: -12em;
     font-weight: bold;
 }
 
@@ -387,6 +388,9 @@ td {
     }
     #intro {
         margin-top: -16em;
+    }
+    #slogan h1 {
+        margin-bottom: 0em;
     }
     .legumes {
         margin-top: -18vh;
@@ -737,6 +741,7 @@ td {
 .art {
     display: flex;
     justify-content: space-around;
+    font-size: small;
 }
 
 .art p {
@@ -752,6 +757,32 @@ td {
 
 .art p a,
 .art p button {
+    padding: 0.3em;
+    margin: 0 1vw 0 0;
+}
+
+
+/* pour la gestion des membres */
+
+.membre {
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.membre p {
+    padding: 0.3em;
+    width: 12vw;
+    text-align: center;
+    display: flex;
+}
+
+.memre p:first-child {
+    width: 8vw;
+}
+
+.membre p a,
+.membre p button {
     padding: 0.3em;
     margin: 0 1vw 0 0;
 }
