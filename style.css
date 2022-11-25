@@ -1,4 +1,4 @@
-/*couleur de fond */
+    /*couleur de fond */
 
 body {
     background: linear-gradient(100deg, green, orange 60%, transparent);
@@ -484,7 +484,7 @@ td {
         background-image: none;
     }
     .legumes {
-        margin-top: -24vh;
+        margin-top: -40vh;
     }
     .legumes1 {
         margin-top: -60vh;
@@ -495,7 +495,7 @@ td {
         text-align: center;
     }
     #utilisateur {
-        height: 2em;
+        height: 1em;
         margin-right: 4em;
         margin-bottom: 2em;
     }
@@ -507,292 +507,278 @@ td {
         margin-left: 19em;
     }
     #usname {
-        margin-left: 16em;
+        margin-left: 1.5em;
+        #co {
+            height: 2.5em;
+            margin-left: 8em;
+            margin-top: 2em;
+            width: 50%;
+            background-color: black;
+            color: white;
+        }
+        /*login */
+        .ft2 {
+            display: block;
+        }
+        /* insertion d'article */
+        #form {
+            display: block;
+            text-align: center;
+        }
+        .insertleg {
+            margin-right: 2em;
+        }
+        #legumesins {
+            width: 22vw;
+        }
+        #prix {
+            margin-left: -2em;
+        }
+        #photo {
+            margin-left: 3.5em;
+        }
+        .ft3 {
+            width: 100%;
+            margin-top: 2em;
+        }
+        .ft4 {
+            margin-top: 2em;
+            margin-bottom: 2em;
+            margin-left: 1em;
+        }
     }
-    #co {
-        height: 2.5em;
-        margin-left: 1em;
-        margin-top: 2em;
-        width: 50%;
-        background-color: black;
-        color: white;
-    }
-    /*login */
-    .ft2 {
-        display: block;
-    }
-    /* insertion d'article */
-    #form {
-        display: block;
-        text-align: center;
-    }
-    .insertleg {
-        margin-right: 2em;
-    }
-    #legumesins {
-        width: 22vw;
-    }
-    #prix {
-        margin-left: -2em;
-    }
-    #photo {
-        margin-left: 3.5em;
-    }
-    .ft3 {
-        width: 100%;
-        margin-top: 2em;
-    }
-    .ft4 {
-        margin-top: 2em;
-        margin-bottom: 2em;
-        margin-left: 1em;
-    }
-}
-
-@media screen and (min-width: 0px) and (max-width: 440px) {
-    #logo img {
-        height: 10em;
-    }
-    #logo {
-        margin-bottom: 0;
-        height: 16em;
-    }
-    #home {
-        margin-top: -2vh;
-        text-align: right;
-    }
-    #home2 {
-        text-align: right;
-    }
-    .username {
-        margin-top: 1px;
-        margin-right: 1px;
-    }
-    .username2 {
-        margin-right: -5vw;
-        margin-top: 0em;
-    }
-    #avatar {
-        max-width: 50px;
-        max-height: 50px;
-        margin-top: 40px;
-    }
-    #avatar2 {
-        margin-left: 73vw;
-    }
-    .champs {
-        background-image: none;
-        height: 70vh;
-    }
-    .champs2 {
-        background-image: none;
-        margin-top: 40vh;
-    }
-    /* login */
-    #utilisateur {
-        width: 53vw;
-    }
-    #mdp {
-        margin-left: 7vw;
-        width: 53vw;
-        margin-top: 3vh;
-    }
-    #co {
-        width: 85vw;
-        font-weight: bold;
-        font-family: cursive;
-        margin-top: 6vh;
-    }
-    #deco {
-        width: 21vh;
-    }
-    #espace {
-        width: 22vh;
-    }
-    /*espace gestion et bouttons*/
-    #ancre {
-        color: black;
-        padding: 0em;
-        display: flex;
-        margin-top: 3vh;
-    }
-    #ancre2 {
-        color: black;
-        padding: 0.4em;
-        display: flex;
-        margin-top: 0vh;
-        width: 50%;
-    }
-    #order {
-        display: block;
-        padding: 1em;
-        margin-top: 2vh;
-    }
-    .deco1 {
-        display: block;
-        height: 40px;
-        width: 90%;
-        font-size: 1.1rem;
-        color: black;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .deco2 {
-        text-decoration: none;
-        border: none;
-        background-color: #e67e22;
-        font-size: 1.3rem;
-        border-radius: 12px;
-    }
-    .liens {
-        text-decoration: underline;
-        color: black;
-        font-weight: bold;
-    }
-    .ft1 td {
-        padding: 0rem;
-    }
-    .ft2 td {
-        padding: 0rem;
-        max-width: 7em;
-    }
-    /* .ft2 th {
+    @media screen and (min-width: 0px) and (max-width: 440px) {
+        #logo img {
+            height: 10em;
+        }
+        #logo {
+            margin-bottom: 0;
+            height: 16em;
+        }
+        #home {
+            margin-top: -2vh;
+            text-align: right;
+        }
+        #home2 {
+            text-align: right;
+        }
+        .username {
+            margin-top: 1px;
+            margin-right: 1px;
+        }
+        .username2 {
+            margin-right: -5vw;
+            margin-top: 0em;
+        }
+        #avatar {
+            max-width: 50px;
+            max-height: 50px;
+            margin-top: 40px;
+        }
+        #avatar2 {
+            margin-left: 73vw;
+        }
+        .champs {
+            background-image: none;
+            height: 70vh;
+        }
+        .champs2 {
+            background-image: none;
+            margin-top: 40vh;
+        }
+        /* login */
+        #utilisateur {
+            width: 53vw;
+        }
+        #mdp {
+            margin-left: 7vw;
+            width: 53vw;
+            margin-top: 3vh;
+        }
+        #co {
+            width: 85vw;
+            font-weight: bold;
+            font-family: cursive;
+            margin-top: 6vh;
+        }
+        #deco {
+            width: 21vh;
+        }
+        #espace {
+            width: 22vh;
+        }
+        /*espace gestion et bouttons*/
+        #ancre {
+            color: black;
+            padding: 0em;
+            display: flex;
+            margin-top: 3vh;
+        }
+        #ancre2 {
+            color: black;
+            padding: 0.4em;
+            display: flex;
+            margin-top: 0vh;
+            width: 50%;
+        }
+        #order {
+            display: block;
+            padding: 1em;
+            margin-top: 2vh;
+        }
+        .deco1 {
+            display: block;
+            height: 40px;
+            width: 90%;
+            font-size: 1.1rem;
+            color: black;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .deco2 {
+            text-decoration: none;
+            border: none;
+            background-color: #e67e22;
+            font-size: 1.3rem;
+            border-radius: 12px;
+        }
+        .liens {
+            text-decoration: underline;
+            color: black;
+            font-weight: bold;
+        }
+        .ft1 td {
+            padding: 0rem;
+        }
+        .ft2 td {
+            padding: 0rem;
+            max-width: 7em;
+        }
+        /* .ft2 th {
         padding-bottom: 1em;
     } */
-    .ft3 {
-        width: 94px;
-        padding: 0.6em;
+        .ft3 {
+            width: 94px;
+            padding: 0.6em;
+        }
+        .ft4 {
+            width: -1px;
+            padding: 0.6em;
+            font-weight: bold;
+        }
+        .btn-link {
+            text-decoration: none;
+            color: white;
+            padding: .4rem 1rem;
+            margin-left: 28px;
+        }
+        .btn-delete {
+            padding: .4rem 1.1rem;
+            border: none;
+            margin-left: 27px;
+        }
+        #form {
+            display: flex;
+            flex-direction: column;
+        }
+        /*intro*/
+        #intro {
+            position: absolute;
+            left: 18%;
+            font-size: x-large;
+            color: darkslategrey;
+            max-width: 70%;
+            font-family: cursive;
+            margin-top: -7em;
+        }
+        #slogan {
+            font-size: 0.6em;
+            margin-top: 0em;
+            width: 105%;
+            margin-left: -1em;
+        }
+        #hello {
+            font-size: x-large;
+            font-weight: bold;
+            margin-left: 0em;
+            margin-top: 6em;
+        }
+        /* login */
+        #formulaire {
+            display: block;
+        }
+        #utilisateur {
+            width: 88vw;
+            margin-bottom: 1vh;
+        }
+        #mdp {
+            width: 88vw;
+            margin-top: 1vh;
+            margin-left: 0;
+        }
+        #co {
+            width: 80vw;
+            margin-top: 6vh;
+            margin-left: 1em;
+        }
+        /*body */
+        #order {
+            font-size: large;
+            height: 15vh;
+        }
+        .legumes {
+            margin-top: -20vh;
+        }
+        .image_1 {
+            margin: auto;
+            border-radius: 20px;
+            width: auto;
+            height: 30vh;
+        }
+        /* footer */
+        .mentions {
+            display: block;
+            font-size: medium;
+        }
     }
-    .ft4 {
-        width: -1px;
-        padding: 0.6em;
-        font-weight: bold;
-    }
-    .btn-link {
-        text-decoration: none;
-        color: white;
-        padding: .4rem 1rem;
-        margin-left: 28px;
-    }
-    .btn-delete {
-        padding: .4rem 1.1rem;
-        border: none;
-        margin-left: 27px;
-    }
-    #form {
+    /* ===================================== */
+    .art {
         display: flex;
-        flex-direction: column;
-    }
-    /*intro*/
-    #intro {
-        position: absolute;
-        left: 18%;
-        font-size: x-large;
-        color: darkslategrey;
-        max-width: 70%;
-        font-family: cursive;
-        margin-top: -7em;
-    }
-    #slogan {
-        font-size: 0.6em;
-        margin-top: 0em;
-        width: 105%;
-        margin-left: -1em;
-    }
-    #hello {
-        font-size: x-large;
+        justify-content: space-around;
+        font-size: small;
         font-weight: bold;
-        margin-left: 0em;
-        margin-top: 6em;
     }
-    /* login */
-    #formulaire {
-        display: block;
+    .art p {
+        padding: 0.3em;
+        width: 12vw;
+        text-align: center;
+        display: flex;
     }
-    #utilisateur {
-        width: 88vw;
-        margin-bottom: 1vh;
+    .art p:first-child {
+        width: 8vw;
     }
-    #mdp {
-        width: 88vw;
-        margin-top: 1vh;
-        margin-left: 0;
+    .art p a,
+    .art p button {
+        padding: 0.3em;
+        margin: 0 1vw 0 0;
     }
-    #co {
-        width: 80vw;
-        margin-top: 6vh;
-        margin-left: 1em;
+    /* pour la gestion des membres */
+    .membre {
+        display: flex;
+        justify-content: space-around;
+        font-size: small;
     }
-    /*body */
-    #order {
-        font-size: large;
-        height: 15vh;
+    .membre p {
+        padding: 0.3em;
+        width: 12vw;
+        text-align: center;
+        display: flex;
     }
-    .legumes {
-        margin-top: -20vh;
+    .memre p:first-child {
+        width: 8vw;
     }
-    .image_1 {
-        margin: auto;
-        border-radius: 20px;
-        width: auto;
-        height: 30vh;
+    .membre p a,
+    .membre p button {
+        padding: 0.3em;
+        margin: 0 1vw 0 0;
     }
-    /* footer */
-    .mentions {
-        display: block;
-        font-size: medium;
-    }
-}
-
-
-/* ===================================== */
-
-.art {
-    display: flex;
-    justify-content: space-around;
-    font-size: small;
-    font-weight: bold;
-}
-
-.art p {
-    padding: 0.3em;
-    width: 12vw;
-    text-align: center;
-    display: flex;
-}
-
-.art p:first-child {
-    width: 8vw;
-}
-
-.art p a,
-.art p button {
-    padding: 0.3em;
-    margin: 0 1vw 0 0;
-}
-
-
-/* pour la gestion des membres */
-
-.membre {
-    display: flex;
-    justify-content: space-around;
-    font-size: small;
-}
-
-.membre p {
-    padding: 0.3em;
-    width: 12vw;
-    text-align: center;
-    display: flex;
-}
-
-.memre p:first-child {
-    width: 8vw;
-}
-
-.membre p a,
-.membre p button {
-    padding: 0.3em;
-    margin: 0 1vw 0 0;
-}
