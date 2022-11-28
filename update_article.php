@@ -23,13 +23,13 @@ if(!empty($_POST)){
 <form action="#" method="POST">
     
 <label id="leg" for="legumes">Nouveaux légumes</label>
-<input type="text" name="legumes">
+<input id="leg1" type="text" name="legumes">
 
 <label id="px" for="prix">Nouveau prix</label>
-<input type="number" step="any" name="prix">
+<input id="px1" type="number" step="any" name="prix">
 
 <label  for="photo">Nouvelle photo</label>
-<input type="file" name="photo">
+<input id="photo1" type="file" name="photo">
 
 <input name="Submit" type="submit" value="Confirmer le changement" onclick="if (confirm('Attention, cette fiche va être modifié')) { return TRUE; } else  { return FALSE; }">
 
