@@ -53,8 +53,10 @@
                         border-radius: 50%;
                     }
                     
-                    .username {
-                        margin-right: 6vw;
+                    #username {
+                        width: 13em;
+                        margin-top: 0.5em;
+                        margin-bottom: 1em;
                     }
                     
                     .username2 {
@@ -228,6 +230,62 @@
                         padding: 3vh;
                     }
                     /*espace gestion */
+                    /* ===================================== */
+                    
+                    .art {
+                        display: flex;
+                        justify-content: space-around;
+                        font-size: small;
+                        font-weight: bold;
+                    }
+                    
+                    .art p {
+                        padding: 0.3em;
+                        width: 12vw;
+                        text-align: center;
+                        display: flex;
+                    }
+                    
+                    .art p:first-child {
+                        width: 8vw;
+                    }
+                    
+                    .art p a,
+                    .art p button {
+                        padding: 0.3em;
+                        margin: 0 1vw 0 0;
+                    }
+                    /* pour la gestion des membres */
+                    
+                    .membre {
+                        display: flex;
+                        justify-content: space-around;
+                        font-size: large;
+                    }
+                    
+                    .membre p {
+                        padding: 0.3em;
+                        width: 12vw;
+                        text-align: center;
+                        display: flex;
+                    }
+                    
+                    .memre p:first-child {
+                        width: 8vw;
+                    }
+                    
+                    .membre p a,
+                    .membre p button {
+                        padding: 0.3em;
+                        margin: 0 1vw 0 0;
+                    }
+                    
+                    .art {
+                        display: flex;
+                        justify-content: space-around;
+                        font-size: large;
+                        font-weight: bold;
+                    }
                     
                     .ft1 {
                         margin-top: 3em;
@@ -635,9 +693,9 @@
                             padding: 0rem;
                             max-width: 7em;
                         }
-                        /* .ft2 th {
-        padding-bottom: 1em;
-    } */
+                        .ft2 th {
+                            padding-bottom: 1em;
+                        }
                         .ft3 {
                             width: 94px;
                             padding: 0.6em;
@@ -646,6 +704,7 @@
                             width: -1px;
                             padding: 0.6em;
                             font-weight: bold;
+                            margin-bottom: 1em;
                         }
                         .btn-link {
                             text-decoration: none;
@@ -661,6 +720,9 @@
                         #form {
                             display: flex;
                             flex-direction: column;
+                        }
+                        #sub {
+                            margin-left: 0.6em;
                         }
                         /*intro*/
                         #intro {
@@ -721,53 +783,4 @@
                             display: block;
                             font-size: medium;
                         }
-                    }
-                    /* ===================================== */
-                    
-                    .art {
-                        display: flex;
-                        justify-content: space-around;
-                        font-size: small;
-                        font-weight: bold;
-                    }
-                    
-                    .art p {
-                        padding: 0.3em;
-                        width: 12vw;
-                        text-align: center;
-                        display: flex;
-                    }
-                    
-                    .art p:first-child {
-                        width: 8vw;
-                    }
-                    
-                    .art p a,
-                    .art p button {
-                        padding: 0.3em;
-                        margin: 0 1vw 0 0;
-                    }
-                    /* pour la gestion des membres */
-                    
-                    .membre {
-                        display: flex;
-                        justify-content: space-around;
-                        font-size: small;
-                    }
-                    
-                    .membre p {
-                        padding: 0.3em;
-                        width: 12vw;
-                        text-align: center;
-                        display: flex;
-                    }
-                    
-                    .memre p:first-child {
-                        width: 8vw;
-                    }
-                    
-                    .membre p a,
-                    .membre p button {
-                        padding: 0.3em;
-                        margin: 0 1vw 0 0;
                     }
