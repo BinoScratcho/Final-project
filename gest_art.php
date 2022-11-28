@@ -20,8 +20,8 @@ while($data =$req->fetch()){
   echo"
     <article class='art'>
       <p>$data->id</p>
-      <p>".mb_strimwidth($data->legumes, 0, 10, '...')."</p>
-      <p>".mb_strimwidth($data->prix, 0, 10, '...')."</p>
+      <p>".mb_strimwidth($data->legumes, 0, 15, '...')."</p>
+      <p>".mb_strimwidth($data->prix, 0, 15, '...')."</p>
       
       <p>
         <a class='btn btn-link' href='./update_article.php?id=$data->id'><i class='fa-solid fa-pen-to-square'></i> </a>

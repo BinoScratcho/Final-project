@@ -647,6 +647,9 @@
                             width: 22vh;
                         }
                         /*espace gestion et bouttons*/
+                        .membre {
+                            font-size: small;
+                        }
                         #ancre {
                             color: black;
                             padding: 0em;
