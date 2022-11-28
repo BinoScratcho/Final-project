@@ -22,7 +22,7 @@ while($data =$req->fetch()){
       <p>$data->id</p>
       <p>".mb_strimwidth($data->legumes, 0, 10, '...')."</p>
       <p>".mb_strimwidth($data->prix, 0, 10, '...')."</p>
-      <p>$data->prenom</p>
+      
       <p>
         <a class='btn btn-link' href='./update_article.php?id=$data->id'><i class='fa-solid fa-pen-to-square'></i> </a>
         <button class='btn btn-delete' onclick='confirmDeleteArticle(". $data->id .")'><i class='fa-solid fa-trash-can'></i></button>
