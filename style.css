@@ -1,487 +1,488 @@
                     /*couleur de fond */
-                
-                body {
-                    background: linear-gradient(100deg, green, orange 60%, transparent);
-                }
-                /* entete */
-                
-                #logo {
-                    text-align: center;
-                    display: revert-layer;
-                    margin-bottom: 10vh;
-                }
-                
-                #logo img {
-                    height: 15em;
-                }
-                
-                #slogan h1 {
-                    font-family: 'Cantarell', sans-serif;
-                    padding: 2em;
-                    color: #575411;
-                    text-align: center;
-                    margin-bottom: 2em;
-                }
-                
-                #hello {
-                    font-size: x-large;
-                    font-weight: bold;
-                    margin-left: 3em;
-                    margin-top: 6em;
-                }
-                
-                #home a {
-                    font-family: 'Cantarell', sans-serif;
-                    text-decoration: none;
-                    color: darkslategrey;
-                    font-weight: bold;
-                }
-                
-                #home {
-                    padding-bottom: 3vh;
-                    margin-top: -34vh;
-                    text-align: right;
-                }
-                
-                #avatar {
-                    margin-right: 6vw;
-                    border-radius: 50%;
-                }
-                
-                #avatar2 {
-                    margin-right: 13vw;
-                    border-radius: 50%;
-                }
-                
-                .username {
-                    margin-right: 6vw;
-                }
-                
-                .username2 {
-                    margin-right: -3vw;
-                    margin-top: -2em;
-                }
-                /*boutons */
-                /* Style de base des boutons*/
-                
-                .btn {
-                    padding: .5rem 1.5rem;
-                    border: none;
-                    background-color: #18dcff;
-                    cursor: pointer;
-                    color: white;
-                    font-size: 1.2rem;
-                    margin: 5px;
-                }
-                
-                .btn>.fa-solid {
-                    transition: transform .5s;
-                }
-                
-                .btn:hover>.fa-solid {
-                    transform: scale(1.3);
-                }
-                /* Styles spécifiques pour chaque bouton */
-                
-                .btn-delete {
-                    background-color: #ff3838;
-                }
-                
-                .btn-link {
-                    text-decoration: none;
-                    color: white;
-                    padding: .5rem 1.2rem;
-                }
-                
-                .btn-submit {
-                    font-size: 1.1rem;
-                    background-color: #000e00;
-                }
-                
-                .deco1 {
-                    margin: 4px;
-                    width: 150px;
-                    height: 40px;
-                    border: none;
-                    background-color: #e67e22;
-                    transition: all 1s;
-                    font-size: 1.1rem;
-                    border-radius: 12px;
-                    cursor: pointer;
-                }
-                
-                .deco1:hover {
-                    transform: scale(1.05);
-                    background-color: #3909096e;
-                }
-                
-                .deco2 {
-                    margin: 4px;
-                    width: 150px;
-                    height: 40px;
-                    border: none;
-                    background-color: #e67e22;
-                    transition: all 1s;
-                    font-size: 1.1rem;
-                    border-radius: 12px;
-                    cursor: pointer;
-                }
-                
-                .deco2:hover {
-                    transform: scale(1.05);
-                    background-color: #3909096e;
-                }
-                
-                .liens {
-                    text-decoration: none;
-                    color: black;
-                    position: relative;
-                    font-weight: bold;
-                    font-size: x-large;
-                }
-                
-                .liens::after {
-                    content: '';
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    background-color: rgba(235, 235, 11, 0.4);
-                    width: 10%;
-                    height: 5px;
-                    transition: all 1s;
-                }
-                
-                .liens:hover::after {
-                    width: 100%;
-                }
-                /* style pour page home2 */
-                
-                #home2 {
-                    text-align: right;
-                    margin-top: -39vh;
-                    max-width: 97%;
-                }
-                /* Body */
-                
-                .champs {
-                    background-image: url("./images/champs.png");
-                    background-position: center;
-                    height: 75vh;
-                    margin-top: 43vh;
-                    background-size: 70%;
-                    background-repeat: no-repeat;
-                }
-                
-                .champs2 {
-                    background-image: url("./images/champs.png");
-                    background-position: center;
-                    height: 78vh;
-                    margin-top: 62vh;
-                    background-size: 70%;
-                    background-repeat: no-repeat;
-                }
-                
-                #intro {
-                    position: absolute;
-                    left: 20%;
-                    font-size: large;
-                    color: darkslategrey;
-                    justify-content: center;
-                    display: flex;
-                    text-align: revert-layer;
-                    max-width: 64%;
-                    font-family: cursive;
-                    margin-top: -12em;
-                    font-weight: bold;
-                }
-                /*tableaux inscription et gestion */
-                
-                #formulaire {
-                    display: flex;
-                    font-family: cursive;
-                }
-                
-                #co {
-                    cursor: pointer;
-                    font-family: cursive;
-                    margin-left: 3em;
-                    width: 24vw;
-                    font-weight: bold;
-                }
-                
-                #co:hover {
-                    transform: scale(1.05);
-                    background-color: black;
-                    color: white;
-                    border: none;
-                }
-                
-                #inscription {
-                    display: flex;
-                    flex-direction: column;
-                    max-width: 15em;
-                    margin: auto;
-                    text-align: center;
-                    border: 2px black solid;
-                    height: 55vh;
-                    justify-content: space-evenly;
-                    padding: 3vh;
-                }
-                /*espace gestion */
-                
-                .ft1 {
-                    margin-top: 3em;
-                    font-weight: bold;
-                    margin-bottom: 3em;
-                }
-                
-                .ft2 {
-                    margin-top: 3em;
-                    font-weight: bold;
-                }
-                
-                .ft3 {
-                    margin-right: 3em;
-                    font-weight: bold;
-                }
-                
-                .ft4 {
-                    font-weight: bold;
-                }
-                
-                #form {
-                    display: flex;
-                }
-                
-                .t1 {
-                    margin-top: 2em;
-                }
-                
-                .t2 {
-                    margin-top: 5vh;
-                }
-                
-                .t2 th {
-                    padding: 0.5em;
-                }
-                
-                td {
-                    padding: 0.2em;
-                }
-                
-                #order {
-                    height: 40vh;
-                    padding: 2em;
-                    max-width: 100%;
-                    display: flex;
-                    justify-content: space-between;
-                    font-weight: bold;
-                    font-size: x-large;
-                }
-                
-                #ancre {
-                    color: black;
-                    padding: 1em;
-                    margin-top: 3vh;
-                }
-                
-                #ancre2 {
-                    color: black;
-                    padding: 0.3em;
-                    margin-top: 3vh;
-                    text-decoration: none;
-                }
-                
-                #photo {
-                    font-weight: bold;
-                }
-                /*affichage légumes */
-                
-                .legumes h4 {
-                    text-align: center;
-                    font-family: cursive;
-                }
-                
-                .legumes p {
-                    text-align: center;
-                    font-family: cursive;
-                }
-                
-                .legumes {
-                    display: flex;
-                    justify-content: space-evenly;
-                    padding: 3vh;
-                    flex-wrap: wrap;
-                    margin-top: 15vh;
-                }
-                
-                .image_1 {
-                    cursor: pointer;
-                    width: 40vh;
-                    border: 2px black solid;
-                    margin: auto;
-                    border-radius: 15px;
-                    transition: transform 1s;
-                }
-                
-                .image_1:hover {
-                    transform: scale(1.05);
-                }
-                /* Footer  */
-                
-                .mentions {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    position: relative;
-                    margin-top: 10vh;
-                    font-weight: bold;
-                    font-size: x-large;
-                    text-decoration: none;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                }
-                
-                .test {
-                    display: none;
-                }
-                
-                .show {
-                    display: inline;
-                }
-                /* Responsive */
-                /* Laptop  */
-                
-                @media screen and (min-width: 769px) and (max-width: 1310px) {
-                    /*body*/
-                    #intro {
-                        margin-top: -4em;
-                        font-size: large;
-                        color: darkslategrey;
+                    
+                    body {
+                        background: linear-gradient(100deg, green, orange 60%, transparent);
                     }
-                    .username2 {
-                        margin-right: -3vw;
-                        margin-top: 0em;
+                    /* entete */
+                    
+                    #logo {
+                        text-align: center;
+                        display: revert-layer;
+                        margin-bottom: 10vh;
                     }
-                    #intro {
-                        margin-top: -16em;
+                    
+                    #logo img {
+                        height: 15em;
                     }
+                    
                     #slogan h1 {
-                        margin-bottom: 0em;
+                        font-family: 'Cantarell', sans-serif;
+                        padding: 2em;
+                        color: #575411;
+                        text-align: center;
+                        margin-bottom: 2em;
                     }
-                    .legumes {
-                        margin-top: -12vh;
+                    
+                    #hello {
+                        font-size: x-large;
+                        font-weight: bold;
+                        margin-left: 3em;
+                        margin-top: 6em;
                     }
-                    .champs {
-                        margin-top: 30vh
+                    
+                    #home a {
+                        font-family: 'Cantarell', sans-serif;
+                        text-decoration: none;
+                        color: darkslategrey;
+                        font-weight: bold;
                     }
+                    
                     #home {
-                        padding-bottom: 10vh;
-                        margin-top: -9vh;
+                        padding-bottom: 3vh;
+                        margin-top: -34vh;
                         text-align: right;
                     }
-                    /*inscription */
-                    #utilisateur {
-                        height: 2em;
-                        width: 9em;
+                    
+                    #avatar {
+                        margin-right: 6vw;
+                        border-radius: 50%;
                     }
-                    #mdp {
-                        height: 2em;
-                        width: 10em;
-                    }
-                    #co {
-                        height: 2.5em;
-                        width: 10em;
-                    }
-                    .ft2 {
-                        width: 100%;
-                    }
-                    /* insertion d'article */
-                    #form {
-                        display: block;
-                        text-align: center;
-                    }
-                    ft3 {
-                        width: 100%;
-                        margin-top: 2em;
-                    }
-                    .ft4 {
-                        margin-top: 2em;
-                        margin-bottom: 2em;
-                        margin-left: 1em;
-                    }
-                    #legumes2 {
-                        margin-top: 2em;
-                    }
-                    #legumesins {
-                        margin-top: 2em;
-                    }
-                }
-                /* Tablet */
-                
-                @media screen and (min-width: 441px) and (max-width: 768px) {
-                    /*page accueil "home" */
-                    #home {
-                        margin-top: -7vh;
-                    }
-                    /* connection*/
-                    #mdp {
-                        height: 2em;
-                    }
-                    /*page accueil "home2" */
-                    .username2 {
-                        margin-right: -3vw;
-                        margin-top: 0em;
-                    }
+                    
                     #avatar2 {
                         margin-right: 13vw;
-                        margin-top: -5vh;
+                        border-radius: 50%;
                     }
+                    
+                    .username {
+                        margin-right: 6vw;
+                    }
+                    
+                    .username2 {
+                        margin-right: -3vw;
+                        margin-top: -2em;
+                    }
+                    /*boutons */
+                    /* Style de base des boutons*/
+                    
+                    .btn {
+                        padding: .5rem 1.5rem;
+                        border: none;
+                        background-color: #18dcff;
+                        cursor: pointer;
+                        color: white;
+                        font-size: 1.2rem;
+                        margin: 5px;
+                    }
+                    
+                    .btn>.fa-solid {
+                        transition: transform .5s;
+                    }
+                    
+                    .btn:hover>.fa-solid {
+                        transform: scale(1.3);
+                    }
+                    /* Styles spécifiques pour chaque bouton */
+                    
+                    .btn-delete {
+                        background-color: #ff3838;
+                    }
+                    
+                    .btn-link {
+                        text-decoration: none;
+                        color: white;
+                        padding: .5rem 1.2rem;
+                    }
+                    
+                    .btn-submit {
+                        font-size: 1.1rem;
+                        background-color: #000e00;
+                    }
+                    
+                    .deco1 {
+                        margin: 4px;
+                        width: 150px;
+                        height: 40px;
+                        border: none;
+                        background-color: #e67e22;
+                        transition: all 1s;
+                        font-size: 1.1rem;
+                        border-radius: 12px;
+                        cursor: pointer;
+                    }
+                    
+                    .deco1:hover {
+                        transform: scale(1.05);
+                        background-color: #3909096e;
+                    }
+                    
+                    .deco2 {
+                        margin: 4px;
+                        width: 150px;
+                        height: 40px;
+                        border: none;
+                        background-color: #e67e22;
+                        transition: all 1s;
+                        font-size: 1.1rem;
+                        border-radius: 12px;
+                        cursor: pointer;
+                    }
+                    
+                    .deco2:hover {
+                        transform: scale(1.05);
+                        background-color: #3909096e;
+                    }
+                    
+                    .liens {
+                        text-decoration: none;
+                        color: black;
+                        position: relative;
+                        font-weight: bold;
+                        font-size: x-large;
+                    }
+                    
+                    .liens::after {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        background-color: rgba(235, 235, 11, 0.4);
+                        width: 10%;
+                        height: 5px;
+                        transition: all 1s;
+                    }
+                    
+                    .liens:hover::after {
+                        width: 100%;
+                    }
+                    /* style pour page home2 */
+                    
                     #home2 {
                         text-align: right;
-                        margin-top: -44vh;
+                        margin-top: -39vh;
                         max-width: 97%;
                     }
-                    #sloganh1 {
-                        margin-bottom: -2em;
-                    }
-                    #intro {
-                        color: darkslategrey;
-                        margin-top: -12em;
-                    }
+                    /* Body */
+                    
                     .champs {
-                        margin-top: 30vh;
+                        background-image: url("./images/champs.png");
+                        background-position: center;
+                        height: 75vh;
+                        margin-top: 43vh;
+                        background-size: 70%;
+                        background-repeat: no-repeat;
                     }
-                    .champs {
-                        background-image: none;
-                    }
+                    
                     .champs2 {
-                        background-image: none;
+                        background-image: url("./images/champs.png");
+                        background-position: center;
+                        height: 78vh;
+                        margin-top: 62vh;
+                        background-size: 70%;
+                        background-repeat: no-repeat;
                     }
-                    .legumes {
-                        margin-top: -40vh;
+                    
+                    #intro {
+                        position: absolute;
+                        left: 20%;
+                        font-size: large;
+                        color: darkslategrey;
+                        justify-content: center;
+                        display: flex;
+                        text-align: revert-layer;
+                        max-width: 64%;
+                        font-family: cursive;
+                        margin-top: -12em;
+                        font-weight: bold;
                     }
-                    .legumes1 {
-                        margin-top: -60vh;
-                    }
-                    /*formulaire inscription et log */
+                    /*tableaux inscription et gestion */
+                    
                     #formulaire {
-                        display: block;
+                        display: flex;
+                        font-family: cursive;
+                    }
+                    
+                    #co {
+                        cursor: pointer;
+                        font-family: cursive;
+                        margin-left: 3em;
+                        width: 24vw;
+                        font-weight: bold;
+                    }
+                    
+                    #co:hover {
+                        transform: scale(1.05);
+                        background-color: black;
+                        color: white;
+                        border: none;
+                    }
+                    
+                    #inscription {
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 15em;
+                        margin: auto;
                         text-align: center;
+                        border: 2px black solid;
+                        height: 55vh;
+                        justify-content: space-evenly;
+                        padding: 3vh;
                     }
-                    #utilisateur {
-                        height: 1em;
-                        margin-right: 4em;
-                        margin-bottom: 2em;
+                    /*espace gestion */
+                    
+                    .ft1 {
+                        margin-top: 3em;
+                        font-weight: bold;
+                        margin-bottom: 3em;
                     }
-                    #mdp {
-                        height: 2em;
-                        margin-right: 4.6em;
+                    
+                    .ft2 {
+                        margin-top: 3em;
+                        font-weight: bold;
                     }
-                    #mdp1 {
-                        margin-left: 19em;
+                    
+                    .ft3 {
+                        margin-right: 3em;
+                        font-weight: bold;
                     }
-                    #usname {
-                        margin-left: 1.5em;
+                    
+                    .ft4 {
+                        font-weight: bold;
+                    }
+                    
+                    #form {
+                        display: flex;
+                    }
+                    
+                    .t1 {
+                        margin-top: 2em;
+                    }
+                    
+                    .t2 {
+                        margin-top: 5vh;
+                    }
+                    
+                    .t2 th {
+                        padding: 0.5em;
+                    }
+                    
+                    td {
+                        padding: 0.2em;
+                    }
+                    
+                    #order {
+                        height: 40vh;
+                        padding: 2em;
+                        max-width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        font-weight: bold;
+                        font-size: x-large;
+                    }
+                    
+                    #ancre {
+                        color: black;
+                        padding: 1em;
+                        margin-top: 3vh;
+                    }
+                    
+                    #ancre2 {
+                        color: black;
+                        padding: 0.3em;
+                        margin-top: 3vh;
+                        text-decoration: none;
+                    }
+                    
+                    #photo {
+                        font-weight: bold;
+                    }
+                    /*affichage légumes */
+                    
+                    .legumes h4 {
+                        text-align: center;
+                        font-family: cursive;
+                    }
+                    
+                    .legumes p {
+                        text-align: center;
+                        font-family: cursive;
+                    }
+                    
+                    .legumes {
+                        display: flex;
+                        justify-content: space-evenly;
+                        padding: 3vh;
+                        flex-wrap: wrap;
+                        margin-top: 15vh;
+                    }
+                    
+                    .image_1 {
+                        cursor: pointer;
+                        width: 40vh;
+                        border: 2px black solid;
+                        margin: auto;
+                        border-radius: 15px;
+                        transition: transform 1s;
+                    }
+                    
+                    .image_1:hover {
+                        transform: scale(1.05);
+                    }
+                    /* Footer  */
+                    
+                    .mentions {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        position: relative;
+                        margin-top: 10vh;
+                        font-weight: bold;
+                        font-size: x-large;
+                        text-decoration: none;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    
+                    .test {
+                        display: none;
+                    }
+                    
+                    .show {
+                        display: inline;
+                    }
+                    /* Responsive */
+                    /* Laptop  */
+                    
+                    @media screen and (min-width: 769px) and (max-width: 1310px) {
+                        /*body*/
+                        #intro {
+                            margin-top: -4em;
+                            font-size: large;
+                            color: darkslategrey;
+                        }
+                        .username2 {
+                            margin-right: -3vw;
+                            margin-top: 0em;
+                        }
+                        #intro {
+                            margin-top: -16em;
+                        }
+                        #slogan h1 {
+                            margin-bottom: 0em;
+                        }
+                        .legumes {
+                            margin-top: -12vh;
+                        }
+                        .champs {
+                            margin-top: 30vh
+                        }
+                        #home {
+                            padding-bottom: 10vh;
+                            margin-top: -9vh;
+                            text-align: right;
+                        }
+                        /*inscription */
+                        #utilisateur {
+                            height: 2em;
+                            width: 9em;
+                        }
+                        #mdp {
+                            height: 2em;
+                            width: 10em;
+                        }
+                        #co {
+                            height: 2.5em;
+                            width: 10em;
+                        }
+                        .ft2 {
+                            width: 100%;
+                        }
+                        /* insertion d'article */
+                        #form {
+                            display: block;
+                            text-align: center;
+                        }
+                        ft3 {
+                            width: 100%;
+                            margin-top: 2em;
+                        }
+                        .ft4 {
+                            margin-top: 2em;
+                            margin-bottom: 2em;
+                            margin-left: 1em;
+                        }
+                        #legumes2 {
+                            margin-top: 2em;
+                        }
+                        #legumesins {
+                            margin-top: 2em;
+                        }
+                    }
+                    /* Tablet */
+                    
+                    @media screen and (min-width: 441px) and (max-width: 768px) {
+                        /*page accueil "home" */
+                        #home {
+                            margin-top: -7vh;
+                        }
+                        /* connection*/
+                        #mdp {
+                            height: 2em;
+                        }
+                        /*page accueil "home2" */
+                        .username2 {
+                            margin-right: -3vw;
+                            margin-top: 0em;
+                        }
+                        #avatar2 {
+                            margin-right: 13vw;
+                            margin-top: -5vh;
+                        }
+                        #home2 {
+                            text-align: right;
+                            margin-top: -44vh;
+                            max-width: 97%;
+                        }
+                        #sloganh1 {
+                            margin-bottom: -2em;
+                        }
+                        #intro {
+                            color: darkslategrey;
+                            margin-top: -12em;
+                        }
+                        .champs {
+                            margin-top: 30vh;
+                        }
+                        .champs {
+                            background-image: none;
+                        }
+                        .champs2 {
+                            background-image: none;
+                        }
+                        .legumes {
+                            margin-top: -40vh;
+                        }
+                        .legumes1 {
+                            margin-top: -60vh;
+                        }
+                        /*formulaire inscription et log */
+                        #formulaire {
+                            display: block;
+                            text-align: center;
+                        }
+                        #utilisateur {
+                            height: 1em;
+                            margin-right: 4em;
+                            margin-bottom: 2em;
+                        }
+                        #mdp {
+                            height: 2em;
+                            margin-right: 4.6em;
+                        }
+                        #mdp1 {
+                            margin-left: 19em;
+                        }
+                        #usname {
+                            margin-left: 1.5em;
+                        }
                         #co {
                             height: 2.5em;
                             margin-left: 8em;
@@ -521,6 +522,7 @@
                             margin-left: 1em;
                         }
                     }
+                    
                     @media screen and (min-width: 0px) and (max-width: 440px) {
                         #logo img {
                             height: 10em;
@@ -530,12 +532,15 @@
                             height: 16em;
                         }
                         #home {
-                            margin-top: -50vh;
+                            margin-top: -30vh;
                             text-align: right;
                             padding-bottom: 16vh;
                         }
                         #home2 {
                             text-align: right;
+                        }
+                        #intro {
+                            margin-top: -12em;
                         }
                         .username {
                             margin-top: 1px;
@@ -718,41 +723,49 @@
                         }
                     }
                     /* ===================================== */
+                    
                     .art {
                         display: flex;
                         justify-content: space-around;
                         font-size: small;
                         font-weight: bold;
                     }
+                    
                     .art p {
                         padding: 0.3em;
                         width: 12vw;
                         text-align: center;
                         display: flex;
                     }
+                    
                     .art p:first-child {
                         width: 8vw;
                     }
+                    
                     .art p a,
                     .art p button {
                         padding: 0.3em;
                         margin: 0 1vw 0 0;
                     }
                     /* pour la gestion des membres */
+                    
                     .membre {
                         display: flex;
                         justify-content: space-around;
                         font-size: small;
                     }
+                    
                     .membre p {
                         padding: 0.3em;
                         width: 12vw;
                         text-align: center;
                         display: flex;
                     }
+                    
                     .memre p:first-child {
                         width: 8vw;
                     }
+                    
                     .membre p a,
                     .membre p button {
                         padding: 0.3em;
