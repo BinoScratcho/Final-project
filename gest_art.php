@@ -34,9 +34,7 @@ while($data =$req->fetch()){
 ?>
 </main>
 </fieldset>
-<?php
-include './include/footer.php';
-?>
+
 <a class="liens" style="font-size: xx-large" href="./insert_db.php">Insérer des nouveaux fruits & légumes</a>
 
 <?php
