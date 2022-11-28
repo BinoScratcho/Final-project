@@ -54,7 +54,7 @@
                     }
                     
                     #username {
-                        width: 13em;
+                        width: 17.3em;
                         margin-top: 0.5em;
                         margin-bottom: 1em;
                     }
@@ -479,7 +479,8 @@
                     @media screen and (min-width: 441px) and (max-width: 768px) {
                         /*page accueil "home" */
                         #home {
-                            margin-top: -7vh;
+                            margin-top: -14vh;
+                            text-align: right;
                         }
                         /* connection*/
                         #mdp {
@@ -522,32 +523,43 @@
                             margin-top: -60vh;
                         }
                         /*formulaire inscription et log */
+                        #hello {
+                            margin-left: 0em;
+                        }
                         #formulaire {
                             display: block;
                             text-align: center;
                         }
                         #utilisateur {
                             height: 1em;
-                            margin-right: 4em;
+                            margin-right: 3em;
                             margin-bottom: 2em;
                         }
                         #mdp {
-                            height: 2em;
-                            margin-right: 4.6em;
+                            height: 1em;
+                            margin-left: 2em;
+                            margin-right: 1.5em;
                         }
                         #mdp1 {
-                            margin-left: 19em;
+                            margin-left: 0em;
                         }
                         #usname {
-                            margin-left: 1.5em;
+                            margin-left: 0em;
                         }
                         #co {
                             height: 2.5em;
                             margin-left: 8em;
-                            margin-top: 2em;
+                            margin-top: 4em;
                             width: 50%;
                             background-color: black;
                             color: white;
+                        }
+                        #order {
+                            display: block;
+                            padding: 3em;
+                        }
+                        #order a {
+                            margin-top: 1em;
                         }
                         /*login */
                         .ft2 {
@@ -570,6 +582,9 @@
                         #photo {
                             margin-left: 3.5em;
                         }
+                        #ancre {
+                            padding: 0em;
+                        }
                         .ft3 {
                             width: 100%;
                             margin-top: 2em;
@@ -578,6 +593,9 @@
                             margin-top: 2em;
                             margin-bottom: 2em;
                             margin-left: 1em;
+                        }
+                        .mentions {
+                            display: block;
                         }
                     }
                     
@@ -600,9 +618,18 @@
                         #intro {
                             margin-top: -12em;
                         }
-                        .username {
+                        #username {
                             margin-top: 1px;
                             margin-right: 1px;
+                            width: auto;
+                            margin-bottom: 0em;
+                        }
+                        #prename {
+                            width: auto;
+                            margin-bottom: 2em;
+                        }
+                        #name {
+                            width: auto;
                         }
                         .username2 {
                             margin-right: -5vw;
@@ -719,6 +746,9 @@
                             padding: .4rem 1.1rem;
                             border: none;
                             margin-left: 27px;
+                        }
+                        .btn-submit {
+                            margin-left: 1em;
                         }
                         #form {
                             display: flex;

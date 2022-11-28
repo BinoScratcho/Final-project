@@ -5,7 +5,7 @@
 <fieldset class="ft2">
     
     <form action="./log_exec.php" id="formulaire" method="POST">
-        <label id="usname" for="username"> Nom d'utilisateur </label>&nbsp;&nbsp;
+        <label id="usname" for="username"> Nom d'utilisateur </label>&nbsp;&nbsp;&nbsp;
         <input id="utilisateur" type="text" name="username">
         <label id="mdp1" for="user_pass">Mot de passe</label>&nbsp;&nbsp;
         <input type="password" name="user_pass" id="mdp">

@@ -18,16 +18,18 @@ if (!empty($_POST)) {
     <legend>Modification</legend>
 
     <form action="#" method="POST">
-
+    <div class="ft3">
         <label id="pseudo" for="username">Nom d'utilisateur</label>
         <input type="text" name="username" id="username" required>
-
+</div>
+<div class="ft3">
         <label id="name" for="nom">Nom</label>
         <input type="text" name="nom" id="name" required>
-
+</div>
+<div class="ft3">
         <label id="prenom" for="prenom">Prénom</label>
         <input type="text" name="prenom" id="prename" required>
-
+</div>
         <input name="Submit" type="submit" class="btn btn-submit" value="Confirmer le changement" onclick="if (confirm('Attention,la fiche du membre va être modifiée')) { return TRUE; } else  { return FALSE; }">
 
     </form>

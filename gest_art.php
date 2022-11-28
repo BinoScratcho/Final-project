@@ -37,6 +37,3 @@ while($data =$req->fetch()){
 
 <a class="liens" style="font-size: xx-large" href="./insert_db.php">Insérer des nouveaux fruits & légumes</a>
 
-<?php
-include './include/footer.php' ;
-?>  
