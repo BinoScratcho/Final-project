@@ -16,7 +16,7 @@ if(!empty($_POST)){
     
 
 
-<fieldset>
+<fieldset class="ft4">
 <legend>Modification</legend>
 
 <form action="#" method="POST">
@@ -36,7 +36,7 @@ if(!empty($_POST)){
 <input type="file" name="photo" required>
 </div>
 
-<input id="sub" name="Submit" type="submit" value="Confirmer le changement" onclick="if (confirm('Attention, cette fiche va être modifié')) { return TRUE; } else  { return FALSE; }">
+<input class="btn-submit" name="Submit" type="submit" value="Confirmer le changement" onclick="if (confirm('Attention, cette fiche va être modifié')) { return TRUE; } else  { return FALSE; }">
 
 </form>
 </fieldset>
