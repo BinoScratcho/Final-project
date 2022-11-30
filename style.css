@@ -416,7 +416,7 @@
             align-items: center;
             justify-content: space-evenly;
             position: relative;
-            margin-top: 10vh;
+            margin-top: 12vh;
             font-weight: bold;
             font-size: x-large;
             text-decoration: none;
@@ -706,7 +706,7 @@
             .champs {
                 background-image: none;
                 height: 70vh;
-                margin-top: 60vh;
+                margin-top: 30vh;
             }
             .champs2 {
                 background-image: none;
