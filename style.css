@@ -279,7 +279,7 @@
         
         .membre p {
             padding: 0.6em;
-            width: 14vw;
+            width: 13vw;
             text-align: center;
             display: flex;
         }
@@ -784,6 +784,9 @@
                 text-decoration: underline;
                 color: black;
                 font-weight: bold;
+                margin-left: 0;
+                font-size: large;
+                margin-top: 2em;
             }
             .ft1 td {
                 padding: 0rem;

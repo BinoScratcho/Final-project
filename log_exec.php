@@ -30,7 +30,7 @@ if(isset($_POST["submit"]))
 
 
                 $_SESSION['user_kind'] =$result['user_kind'];
-                exit(header('location: index_membre.php'));
+                exit(header('location: espace_gestion.php'));
               }else{
                   echo 'Veuillez verifier votre mot de passe';
                   header('location: login.php');

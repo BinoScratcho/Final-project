@@ -33,7 +33,7 @@ session_start();
             if (copy($_FILES['photo']['tmp_name'],'uploads/'. $photoname )){
                 $req = $pdo->prepare("INSERT INTO produits SET legumes = ?,  photo = ?, prix = ? ");
                 $req->execute([$_POST['legumes'],  $_FILES['photo'] = $photoname, $_POST['prix']]);
-                header('location: ./index_membre.php');
+                header('location: ./espace_gestion.php');
                 exit();
             }else{
                 echo'échec envoi photo';
@@ -41,5 +41,5 @@ session_start();
         }
     }
 }else {
-    header('location: ./index_membre.php');
+    header('location: ./espace_gestion.php');
 }
