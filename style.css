@@ -58,7 +58,7 @@
         }
         
         #name {
-            margin-left: 1.5em;
+            margin-left: 1.7em;
         }
         
         #prenom {
@@ -416,7 +416,7 @@
             align-items: center;
             justify-content: space-evenly;
             position: relative;
-            margin-top: 12vh;
+            margin-top: 20vh;
             font-weight: bold;
             font-size: x-large;
             text-decoration: none;
